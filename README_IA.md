@@ -1,5 +1,12 @@
 # README IA — Thau AuFilDuBoamp — dépôt public
 
+## Ordre de reprise
+
+1. `00_LIRE_IA_SIBSARD.md` ;
+2. `README.md` ;
+3. présent `README_IA.md` ;
+4. uniquement les notebooks et actifs utiles au sujet.
+
 ## Rôle
 
 Ce dépôt `AuFilDuBoamp/Thau-AuFilDuBoamp` est la **sortie publique** de Thau AuFilDuBoamp.
@@ -43,17 +50,25 @@ La rubrique 144 suit une architecture modulaire **tout en noisettes** :
 
 `sources → traitements métier en amont → JSON/manifestes → FTP → PHP léger → modèles/noisettes → composition éditoriale SPIP`
 
+Les modèles/noisettes Thau sont placés directement dans :
+
+`squelettes/modeles/`
+
+avec le préfixe :
+
+`thau_cent_quarante_quatre_...`
+
+Exemple établi :
+
+`<thau_cent_quarante_quatre_marche_identite|>`
+
+Un `id_article` explicite peut cibler les données d’un autre article.
+
 Les calculs, rapprochements et décisions métier ne doivent pas être reconstruits dans la couche de publication.
 
 ## Publication
 
-Les notebooks et actifs présents ici doivent être nettoyés avant diffusion :
-
-- aucun secret ni token ;
-- aucun chemin privé inutile ;
-- aucune donnée non publiable ;
-- aucune cellule de travail ou trace technique inutile ;
-- aucun élément confidentiel du pipeline propriétaire BSA ou des règles sensibles de rapprochement.
+Les notebooks et actifs présents ici doivent être nettoyés avant diffusion : aucun secret/token, chemin privé inutile, donnée non publiable, cellule de travail inutile ou détail interne sensible.
 
 ## Non-invention
 
