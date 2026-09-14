@@ -4,6 +4,17 @@
 
 Ce dépôt public accueille les **publications de Thau AuFilDuBoamp**.
 
+## Porte d’entrée IA
+
+Une IA commence par :
+
+1. `00_LIRE_IA_SIBSARD.md` ;
+2. `README.md` ;
+3. `README_IA.md` ;
+4. seulement ensuite les notebooks ou actifs utiles.
+
+La redondance avec les autres dépôts est volontaire : même depuis ce dépôt public, une IA doit retrouver la carte complète du système et savoir revenir aux sources amont.
+
 ## Rôle
 
 Ce dépôt est une **sortie éditoriale publique**. Il n’est ni le dépôt de préparation interne, ni une source de preuve métier autonome.
@@ -34,6 +45,8 @@ La rubrique territoriale correspond à **Thau AuFilDuBoamp / rubrique 144**.
 
 La restitution SPIP est construite de manière modulaire : les calculs, rapprochements et analyses sont réalisés en amont ; les objets validés sont ensuite publiés et composés sous forme de modèles/noisettes dans les articles.
 
+Les modèles Thau sont placés directement dans `squelettes/modeles/` sur le site, avec le préfixe `thau_cent_quarante_quatre_...`.
+
 Le site et ce dépôt public ne deviennent jamais des sources de preuve à la place des données et documents qui les alimentent.
 
 ## État
@@ -46,10 +59,7 @@ La première structure comprend un sommaire et un ensemble initial de radiograph
 
 Le notebook `00_ACCUEIL.ipynb` constitue le sommaire de la collection lorsqu’il est présent dans la version courante.
 
-Rubrique territoriale :
-
-- Thau AuFilDuBoamp ;
-- rubrique 144, référence numérique stable du site.
+Rubrique territoriale : Thau AuFilDuBoamp / rubrique 144.
 
 ## Publication et nettoyage
 
