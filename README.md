@@ -31,13 +31,24 @@ Les productions Web locales destinées à la publication sont séparées dans :
 
 Selon les besoins d’un marché ou d’une publication, la préparation peut s’appuyer sur :
 
-- Radar 34 / BSA / BSA-SIRET pour les annonces, identifiants et données territoriales ;
+- Radar 34 / BSA / BSA-SIRET pour les annonces, identifiants, identité acheteur et données territoriales ;
 - JSON eForms réel lorsque nécessaire ;
 - fonds documentaire DCE pour les pièces réellement disponibles ;
 - Repères pour les textes, données de référence et autres sources extérieures autorisées ;
 - audits spécialisés pour des analyses de cas, sans les substituer aux sources primaires.
 
 Toute information absente ou non établie reste explicitement signalée comme telle.
+
+## Identité acheteur publiée
+
+Pour l’identité juridique d’un acheteur, la publication utilise en priorité le **couple établi dans BSA / BSA-SIRET** :
+
+- **dénomination officielle SIREN/SIRENE** ;
+- **numéro SIREN associé**.
+
+Les deux valeurs sont indissociables. Le libellé acheteur et le SIREN présents dans l’annonce BOAMP d’origine peuvent être conservés comme données source, mais ils ne remplacent pas le couple BSA/BSA-SIRET lorsqu’il est établi.
+
+Ne jamais mélanger une dénomination issue de BSA/BSA-SIRET avec un SIREN BOAMP, ni l’inverse. Le pipeline BSA peut corriger ou enrichir substantiellement l’identité de l’annonce d’origine.
 
 ## Organisation éditoriale
 
@@ -49,11 +60,21 @@ Les modèles Thau sont placés directement dans `squelettes/modeles/` sur le sit
 
 Le site et ce dépôt public ne deviennent jamais des sources de preuve à la place des données et documents qui les alimentent.
 
+## Collection publique
+
+La collection publique est maintenue séparément du pipeline SPIP/FTP. Lorsqu’un marché est ajouté et que ses données sont déjà établies, la mise à jour peut rester légère :
+
+- création ou mise à jour de `radiographie_<IDWEB>.ipynb` ;
+- ajout dans `MANIFESTE_PUBLICATIONS.csv` ;
+- mise à jour de `00_ACCUEIL.ipynb` lorsque le sommaire évolue.
+
+Cette maintenance directe du dépôt public évite d’ajouter un notebook de fabrication spécifique lorsque ce n’est pas nécessaire.
+
 ## État
 
 **Proof of concept éditorial en cours de préparation — publication non encore annoncée.**
 
-La première structure comprend un sommaire et un ensemble initial de radiographies. Les titres éditoriaux, objets de restitution et contenus détaillés évolueront progressivement à partir de sources établies.
+La structure comprend un sommaire et un ensemble de radiographies en préparation. Les titres éditoriaux, objets de restitution et contenus détaillés évolueront progressivement à partir de sources établies.
 
 ## Lire
 
