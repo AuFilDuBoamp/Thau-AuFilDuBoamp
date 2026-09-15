@@ -44,6 +44,17 @@ Pour vérifier une information publiée ici, revenir aux sources amont :
 
 Le présent dépôt, SPIP et les notebooks publics sont des **dérivés de publication**. Ils ne remplacent jamais les sources métier.
 
+## Identité acheteur — règle prioritaire
+
+Pour toute identité juridique affichée dans une publication Thau, utiliser en priorité le **couple BSA / BSA-SIRET établi** :
+
+- **dénomination officielle SIREN/SIRENE** ;
+- **numéro SIREN associé**.
+
+Ces deux valeurs doivent rester appariées. Le libellé acheteur et le SIREN provenant de l’annonce BOAMP d’origine sont conservables comme données source, mais ne doivent pas remplacer ce couple lorsqu’il est établi.
+
+Ne jamais fabriquer un hybride en associant une dénomination corrigée issue de BSA/BSA-SIRET à un SIREN BOAMP, ni l’inverse. Le pipeline BSA peut apporter des corrections substantielles à l’identité de l’annonce d’origine.
+
 ## Thau 144
 
 La rubrique 144 suit une architecture modulaire **tout en noisettes** :
@@ -67,6 +78,8 @@ Un `id_article` explicite peut cibler les données d’un autre article.
 Les calculs, rapprochements et décisions métier ne doivent pas être reconstruits dans la couche de publication.
 
 ## Publication
+
+La collection GitHub/nbviewer est distincte du pipeline `0900` SPIP/FTP. Lorsque les informations nécessaires sont déjà établies, la maintenance peut être directe et légère dans ce dépôt : `radiographie_<IDWEB>.ipynb`, `MANIFESTE_PUBLICATIONS.csv`, puis `00_ACCUEIL.ipynb` si le sommaire doit évoluer.
 
 Les notebooks et actifs présents ici doivent être nettoyés avant diffusion : aucun secret/token, chemin privé inutile, donnée non publiable, cellule de travail inutile ou détail interne sensible.
 
