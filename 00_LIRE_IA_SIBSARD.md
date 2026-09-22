@@ -20,7 +20,7 @@ Pour la reprise documentaire, GitHub peut être plus frais qu’une copie locale
 - `AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab` — composante privée de préparation de **Thau AuFilDuBoamp** : sélection territoriale, rapprochements, identité acheteur, analyses, radiographies, objets de publication et préparation des restitutions de la rubrique 144.
 - `AuFilDuBoamp/aufilduboamp_sibsard_reperes` — sources extérieures autorisées, textes juridiques, données de référence, méthodes, tutoriels, vocabulaire et capitalisation transversale.
 - `AuFilDuBoamp/aufilduboamp_lab_radar_34_spip_148` — restitution par acheteur de la rubrique 148 ; composante technique distincte dont l’architecture modulaire JSON/manifeste/FTP/PHP/modèles sert de référence utile. Sa priorité éditoriale est actuellement rétrogradée, mais son statut dans le Pilote dépend exclusivement du registre exécutable.
-- `AuFilDuBoamp/audit-sibsa_2026-07_sete_ville-de-sete_espaces-verts_26JA030-MK` — audit spécialisé du marché espaces verts de Sète.
+- `AuFilDuBoamp/COMMUNE-DE-SETE-19-10-2026-Tonte-et-entretien-des-espaces-plantes-B-26-70532-S-213403017` — audit spécialisé du marché espaces verts de Sète.
 - `AuFilDuBoamp/Thau-AuFilDuBoamp` — dépôt **public** des publications Thau ; sortie éditoriale, jamais source de preuve métier.
 
 Espaces locaux distincts :
@@ -96,6 +96,16 @@ Ne jamais compléter une donnée absente ni forcer la concordance de sources div
 Repères est le réceptacle par défaut des nouvelles sources extérieures et de la documentation transversale. Une source reste ailleurs seulement si une nécessité fonctionnelle, probatoire ou technique documentée l’exige.
 
 Cette centralisation ne vaut pas autorisation générale de consulter Internet. Aucune recherche Web ou source extérieure non prévue sans demande explicite ou autorisation documentée.
+
+## 7 bis. État documentaire vérifié au 22 septembre 2026
+
+- Thau 144 : **17 marchés / 17 articles SPIP** et 17 radiographies dans le dépôt public.
+- Identité acheteur : couple **dénomination officielle + SIREN** issu en priorité de BSA/BSA-SIRET ; contrôle de second niveau dans Repères/Insee-Sirene si nécessaire.
+- Repères : bibliothèque documentaire `SOURCES/`, avec ordre `README_SOURCE → manifeste → TXT → PDF original si nécessaire`.
+- DCE : lecture spécialisée `README_DCE → manifeste → dérivés → original`, avec `DOSSIER-THAU/` comme vue de travail.
+- Pilote : sept composantes actives dans la CONFIG locale vérifiée ; SPIP 148 reste active, dernière et bloquante malgré sa priorité éditoriale rétrogradée.
+- Audit `26JA030_MK` : dépôt courant `AuFilDuBoamp/COMMUNE-DE-SETE-19-10-2026-Tonte-et-entretien-des-espaces-plantes-B-26-70532-S-213403017`.
+- Espaces Thau distincts : préparation privée, `publications_web` local, FTP et dépôt GitHub public.
 
 ## 8. Gouvernance et confidentialité
 
