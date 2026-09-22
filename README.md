@@ -72,13 +72,15 @@ Cette maintenance directe du dépôt public évite d’ajouter un notebook de fa
 
 ## État
 
-**Proof of concept éditorial en cours de préparation — publication non encore annoncée.**
+**Collection publique expérimentale active : 17 radiographies au 22 septembre 2026.**
 
 La structure comprend un sommaire et un ensemble de radiographies en préparation. Les titres éditoriaux, objets de restitution et contenus détaillés évolueront progressivement à partir de sources établies.
 
 ## Lire
 
 Le notebook `00_ACCUEIL.ipynb` constitue le sommaire de la collection lorsqu’il est présent dans la version courante.
+
+Le manifeste public comprend 17 entrées au 22 septembre 2026. Ce chiffre est un état daté ; le manifeste courant prévaut.
 
 Rubrique territoriale : Thau AuFilDuBoamp / rubrique 144.
 
