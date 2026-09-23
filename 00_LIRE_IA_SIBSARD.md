@@ -99,7 +99,7 @@ Cette centralisation ne vaut pas autorisation générale de consulter Internet. 
 
 ## 7 bis. État documentaire vérifié au 22 septembre 2026
 
-- Thau 144 : **17 marchés / 17 articles SPIP** et 17 radiographies dans le dépôt public.
+- Thau 144 : **18 marchés / 18 articles SPIP** et 18 radiographies dans le dépôt public.
 - Identité acheteur : couple **dénomination officielle + SIREN** issu en priorité de BSA/BSA-SIRET ; contrôle de second niveau dans Repères/Insee-Sirene si nécessaire.
 - Repères : bibliothèque documentaire `SOURCES/`, avec ordre `README_SOURCE → manifeste → TXT → PDF original si nécessaire`.
 - DCE : lecture spécialisée `README_DCE → manifeste → dérivés → original`, avec `DOSSIER-THAU/` comme vue de travail.
