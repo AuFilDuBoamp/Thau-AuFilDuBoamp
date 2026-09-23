@@ -72,15 +72,17 @@ Cette maintenance directe du dépôt public évite d’ajouter un notebook de fa
 
 ## État
 
-**Collection publique expérimentale active : 17 radiographies au 22 septembre 2026.**
+**Collection publique expérimentale active : 18 radiographies au 23 septembre 2026.**
 
 La structure comprend un sommaire et un ensemble de radiographies en préparation. Les titres éditoriaux, objets de restitution et contenus détaillés évolueront progressivement à partir de sources établies.
+
+Dernier ajout au périmètre : `26-91329` — COMMUNE DE MEZE — article SPIP 11.
 
 ## Lire
 
 Le notebook `00_ACCUEIL.ipynb` constitue le sommaire de la collection lorsqu’il est présent dans la version courante.
 
-Le manifeste public comprend 17 entrées au 22 septembre 2026. Ce chiffre est un état daté ; le manifeste courant prévaut.
+Le manifeste public comprend 18 entrées au 23 septembre 2026. Ce chiffre est un état daté ; le manifeste courant prévaut.
 
 Rubrique territoriale : Thau AuFilDuBoamp / rubrique 144.
 
