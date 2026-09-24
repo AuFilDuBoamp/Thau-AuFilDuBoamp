@@ -116,3 +116,47 @@ Distinguer architecture cible et état réel. Vérifier les productions avant li
 Validation humaine avant suppression importante, écrasement d’un travail validé, réorganisation majeure, changement de visibilité, publication externe non prévue ou réécriture d’historique.
 
 Ne jamais divulguer pipeline propriétaire BSA, méthodes sensibles, règles confidentielles de rapprochement, secrets, tokens, BSA-SIRET national complet, archives nationales non publiables ou composants confidentiels.
+
+## Convention documentaire commune — 24 septembre 2026
+
+### Repères = source canonique des connaissances générales
+
+Le dépôt `AuFilDuBoamp/aufilduboamp_sibsard_reperes` est la **source canonique unique** pour les connaissances générales réutilisables :
+
+- méthodes, tutoriels et vocabulaire ;
+- sources extérieures autorisées et règles de provenance ;
+- Code de la commande publique et documentation Légifrance ;
+- grille chronologique CCP de classement des faits marché ;
+- références Insee / Sirene ;
+- DUME, données essentielles et Chorus Pro ;
+- autres capitalisations transversales.
+
+Une composante spécialisée conserve ses **preuves, données, contrats et procédures propres**. Elle ne doit pas recopier une documentation générale déjà tenue dans Repères, sauf nécessité fonctionnelle, probatoire ou technique explicitement documentée.
+
+### Classement CCP des faits marché
+
+Pour toute analyse d'un marché :
+
+1. établir d'abord le fait dans la source compétente : Radar, JSON eForms réel, DCE, source extérieure qualifiée, etc. ;
+2. conserver la provenance et le statut de preuve dans la composante source ou l'étude de cas ;
+3. si le fait doit être structuré dans la vie du marché, lire :
+   `AuFilDuBoamp/aufilduboamp_sibsard_reperes/CAPITALISATION/CCP_CHRONOLOGIE_MARCHE/00_LIRE_IA_CCP.md` ;
+4. appliquer la rubrique CCP sans déplacer ni dupliquer la preuve.
+
+Le Code officiel est documenté sous :
+`SOURCES/DILA/LEGIFRANCE/CODE_COMMANDE_PUBLIQUE/`.
+
+### Audit Sète
+
+Le dépôt `COMMUNE-DE-SETE-19-10-2026-Tonte-et-entretien-des-espaces-plantes-B-26-70532-S-213403017` est une **étude de cas consommatrice de Repères**.
+
+Il conserve les preuves et constats propres au marché `26JA030_MK`. Ses besoins généraux doivent être satisfaits depuis Repères selon `DEPENDANCES_REPERES.md`, sans recréer de glossaire, tutoriel, source juridique ou grille CCP parallèle.
+
+### Règle de reprise GPT
+
+Quelle que soit la porte d'entrée :
+
+`00_LIRE_IA_SIBSARD.md → README.md → README_IA.md → procédure spécialisée utile → Repères seulement si besoin transversal`.
+
+Ne pas charger en masse les autres dépôts. Router la question vers la composante compétente puis lire uniquement les fichiers nécessaires.
+
