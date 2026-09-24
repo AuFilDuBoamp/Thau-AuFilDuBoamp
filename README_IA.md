@@ -88,3 +88,25 @@ Les notebooks et actifs présents ici doivent être nettoyés avant diffusion : 
 Une information absente ou non établie reste `NON ÉTABLI`, `ABSENT`, `NON TROUVÉ` ou statut explicite équivalent.
 
 Ne jamais compléter une publication publique par supposition.
+
+
+## Repères et chronologie CCP — convention commune
+
+Ce dépôt reste la source spécialisée pour **publications publiques Thau et actifs de restitution**.
+
+Pour toute connaissance générale réutilisable, utiliser comme référence canonique :
+
+`AuFilDuBoamp/aufilduboamp_sibsard_reperes`
+
+Cela concerne notamment méthodes, tutoriels, vocabulaire, sources extérieures, Insee/Sirene, Légifrance, Code de la commande publique, DUME, données essentielles et Chorus Pro.
+
+Une composante spécialisée ne doit pas recopier une documentation générale déjà tenue dans Repères.
+
+Pour analyser ou classer un fait relatif à un marché :
+
+1. établir le fait dans la source spécialisée compétente ;
+2. conserver sa preuve et sa provenance là où elles appartiennent ;
+3. lire ensuite `aufilduboamp_sibsard_reperes/CAPITALISATION/CCP_CHRONOLOGIE_MARCHE/00_LIRE_IA_CCP.md` si une structuration chronologique est nécessaire ;
+4. ne jamais utiliser la grille CCP comme substitut à la preuve.
+
+Le dépôt d'audit Sète `26JA030_MK` consomme Repères selon `DEPENDANCES_REPERES.md` et ne doit pas redevenir une seconde bibliothèque générale.
