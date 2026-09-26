@@ -160,3 +160,35 @@ Quelle que soit la porte d'entrée :
 
 Ne pas charger en masse les autres dépôts. Router la question vers la composante compétente puis lire uniquement les fichiers nécessaires.
 
+## Point d'entrée marché Thau — convention commune du 26 septembre 2026
+
+Pour tout travail portant sur un **marché du périmètre Thau**, la composante
+`AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab` devient le **point d'entrée opérationnel prioritaire**.
+
+Commencer par :
+
+1. `DATA/BSA_SIRET_THAU/bsa_siret_thau_courant.csv` ;
+2. `schema-bsa-siret-thau-141-cols.csv` ;
+3. `GUIDE_IA_BSA_SIRET_THAU.md` ;
+4. `DATA/BSA_SIRET_THAU/MANIFESTE_BSA_SIRET_THAU.json`.
+
+La vue courante comporte 141 colonnes : 139 colonnes historiques BSA-SIRET et deux colonnes de routage, `urlAnnuaireEntreprise` et `urlDceGithub`.
+
+Elle sert d'**index documenté et de routeur**, pas de nouvel entrepôt de preuve. Pour une fiche exhaustive, la restitution de référence est :
+`variable → définition du schéma → valeur`.
+
+Depuis cette ligne :
+
+- `B_41_GESTION_URL_JSON` et `B_43_DONNEES_URL_JSON` routent vers les JSON réels Radar ; leur interprétation suit `aufilduboamp_lab_eda_eforms/GUIDE_IA_EXPLORER_JSON_EFORMS.md` ;
+- `urlDceGithub` route vers le dossier DCE du marché ; lecture `README_DCE → manifeste → dérivés utiles → original si nécessaire` ;
+- `urlAnnuaireEntreprise` est un pointeur canonique contrôlé vers l'Annuaire des entreprises ;
+- `B_38_urlAvis` conserve le lien BOAMP.
+
+La montée en priorité de Thau **ne diminue pas le rôle de Repères** : `aufilduboamp_sibsard_reperes` reste la source canonique des connaissances générales réutilisables et des sources extérieures capitalisées.
+
+Règle synthétique :
+
+`marché Thau → BSA-SIRET Thau + schéma → source spécialisée nécessaire → preuve → analyse → restitution`
+
+Ne pas parcourir en masse les autres composantes avant d'avoir exploité ce point d'entrée et identifié le besoin réel.
+
