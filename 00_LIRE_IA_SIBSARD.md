@@ -178,12 +178,12 @@ Le **routeur Thau principal** reste `bsa_siret_thau_courant.csv` et conserve `1 
 
 Routage obligatoire :
 - IDWEB pivot → vérifier systématiquement s'il possède une ou plusieurs annonces liées et les signaler avant analyse ;
-- IDWEB absent du routeur principal → rechercher d'abord `idwebAnnonceLiee`, puis repartir du `idwebMarchePivot` si la relation est établie ;
+- IDWEB absent du routeur principal → rechercher d'abord `idwebAnnonceLiee` ; s'il est trouvé, exploiter directement sa ligne enrichie et identifier aussi `idwebMarchePivot` pour le contexte du marché ;
 - IDWEB absent des deux couches Thau → seulement alors passer au Radar/BSA-SIRET 34 pour qualification.
 
 Une relation n'est créée que lorsqu'elle est **explicitement documentée**. La règle courante est l'égalité exacte de `B_01_annonceLie` avec le `B_17_idweb` du marché pivot. Similarité d'objet ou d'acheteur, proximité des dates, `ContractFolderID` seul et `B_20_nature` ne créent jamais une relation ; ils peuvent seulement contribuer au contrôle d'une relation déjà établie.
 
-Les deux couches sont des **index-routeurs**, jamais des preuves autonomes. Pour une fiche exhaustive du pivot : `variable → définition du schéma → valeur`.
+Les deux couches sont des **index-routeurs**, jamais des preuves autonomes. Pour une fiche exhaustive du pivot : `variable → définition du schéma → valeur`. Pour une annonce liée, lire directement ses colonnes BSA-SIRET complètes dans `annonces_liees_thau_courant.csv` ; le schéma BSA-SIRET reste la référence de définition des variables historiques.
 
 Depuis le pivot :
 - `B_38_urlAvis` → BOAMP ;
