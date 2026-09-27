@@ -160,36 +160,46 @@ Quelle que soit la porte d'entrée :
 
 Ne pas charger en masse les autres dépôts. Router la question vers la composante compétente puis lire uniquement les fichiers nécessaires.
 
-## Point d'entrée marché Thau — convention commune du 26 septembre 2026
+## Point d'entrée marché Thau — convention commune du 27 septembre 2026
 
-Pour tout travail portant sur un **marché du périmètre Thau**, la composante
-`AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab` devient le **point d'entrée opérationnel prioritaire**.
+Pour tout travail portant sur un **marché du périmètre Thau**, commencer par :
+`AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab`.
 
-Commencer par :
+Lire ensemble :
 
 1. `DATA/BSA_SIRET_THAU/bsa_siret_thau_courant.csv` ;
 2. `schema-bsa-siret-thau-142-cols.csv` ;
 3. `GUIDE_IA_BSA_SIRET_THAU.md` ;
-4. `DATA/BSA_SIRET_THAU/MANIFESTE_BSA_SIRET_THAU.json`.
+4. `DATA/BSA_SIRET_THAU/MANIFESTE_BSA_SIRET_THAU.json` ;
+5. `DATA/BSA_SIRET_THAU/annonces_liees_thau_courant.csv` ;
+6. `DATA/BSA_SIRET_THAU/MANIFESTE_ANNONCES_LIEES_THAU.json`.
 
-La vue courante comporte 142 colonnes : 139 colonnes historiques BSA-SIRET et trois colonnes de routage, `urlAnnuaireEntreprise`, `urlDceGithub` et `urlSiteAcheteur`.
+Le **routeur Thau principal** reste `bsa_siret_thau_courant.csv` et conserve `1 ligne = 1 marché pivot`. La table `annonces_liees_thau_courant.csv` est séparée et permet la navigation `marché pivot ↔ annonce(s) liée(s)`.
 
-Elle sert d'**index documenté et de routeur**, pas de nouvel entrepôt de preuve. Pour une fiche exhaustive, la restitution de référence est :
-`variable → définition du schéma → valeur`.
+Routage obligatoire :
+- IDWEB pivot → vérifier systématiquement s'il possède une ou plusieurs annonces liées et les signaler avant analyse ;
+- IDWEB absent du routeur principal → rechercher d'abord `idwebAnnonceLiee`, puis repartir du `idwebMarchePivot` si la relation est établie ;
+- IDWEB absent des deux couches Thau → seulement alors passer au Radar/BSA-SIRET 34 pour qualification.
 
-Depuis cette ligne :
+Une relation n'est créée que lorsqu'elle est **explicitement documentée**. La règle courante est l'égalité exacte de `B_01_annonceLie` avec le `B_17_idweb` du marché pivot. Similarité d'objet ou d'acheteur, proximité des dates, `ContractFolderID` seul et `B_20_nature` ne créent jamais une relation ; ils peuvent seulement contribuer au contrôle d'une relation déjà établie.
 
-- `B_41_GESTION_URL_JSON` et `B_43_DONNEES_URL_JSON` routent vers les JSON réels Radar ; leur interprétation suit `aufilduboamp_lab_eda_eforms/GUIDE_IA_EXPLORER_JSON_EFORMS.md` ;
-- `urlDceGithub` route vers le dossier DCE du marché ; lecture `README_DCE → manifeste → dérivés utiles → original si nécessaire` ;
-- `urlAnnuaireEntreprise` est un pointeur canonique contrôlé vers l'Annuaire des entreprises ;
-- `urlSiteAcheteur` route vers le site institutionnel de l'acheteur, à partir du référentiel contrôlé Thau ;
-- `B_38_urlAvis` conserve le lien BOAMP.
+Les deux couches sont des **index-routeurs**, jamais des preuves autonomes. Pour une fiche exhaustive du pivot : `variable → définition du schéma → valeur`.
+
+Depuis le pivot :
+- `B_38_urlAvis` → BOAMP ;
+- `B_41_GESTION_URL_JSON` et `B_43_DONNEES_URL_JSON` → JSON réels Radar ;
+- `urlDceGithub` → DCE ;
+- `urlAnnuaireEntreprise` → Annuaire des entreprises ;
+- `urlSiteAcheteur` → site institutionnel.
+
+Pour tout JSON eForms, lire avant interprétation `aufilduboamp_lab_eda_eforms/GUIDE_IA_EXPLORER_JSON_EFORMS.md`. Ne pas appliquer mécaniquement cette méthode à une structure non eForms telle que `FNSimple`.
 
 La montée en priorité de Thau **ne diminue pas le rôle de Repères** : `aufilduboamp_sibsard_reperes` reste la source canonique des connaissances générales réutilisables et des sources extérieures capitalisées.
 
-Règle synthétique :
+Règles synthétiques :
 
-`marché Thau → BSA-SIRET Thau + schéma → source spécialisée nécessaire → preuve → analyse → restitution`
+`marché Thau → routeur principal + annonces liées + schéma → source spécialisée → preuve → analyse → restitution`
+
+`IDWEB absent → annonces liées Thau → Radar/BSA-SIRET 34 → relation éventuelle → marché routé ou nouvelle intégration`
 
 Ne pas parcourir en masse les autres composantes avant d'avoir exploité ce point d'entrée et identifié le besoin réel.
-
