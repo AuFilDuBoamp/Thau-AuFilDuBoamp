@@ -203,3 +203,49 @@ Règles synthétiques :
 `IDWEB absent → annonces liées Thau → Radar/BSA-SIRET 34 → relation éventuelle → marché routé ou nouvelle intégration`
 
 Ne pas parcourir en masse les autres composantes avant d'avoir exploité ce point d'entrée et identifié le besoin réel.
+
+
+## Règle d'or — orientation GPT depuis n'importe quelle composante
+
+Un GPT qui arrive ici doit d'abord **identifier le dépôt courant et son rôle**, puis lire :
+
+`00_LIRE_IA_SIBSARD.md → README.md → README_IA.md → procédure spécialisée utile → fichiers/contrats/résultats courants`.
+
+Il ne reconstruit jamais l'architecture de mémoire et ne charge pas les autres dépôts en masse.
+
+### Carte SIBSARD/SIBSA
+
+- référentiel général / architecture / gouvernance → `AuFilDuBoamp/aufilduboamp-ia` ;
+- orchestration / état transversal → `AuFilDuBoamp/SIBSARD_PILOTE` ;
+- archives JSON BSA / FTP → `AuFilDuBoamp/aufilduboamp_lab_archives_json_bsa_et_ftp_integral` ;
+- structures eForms → `AuFilDuBoamp/aufilduboamp_lab_eda_eforms` ;
+- annonces / IDWEB / BSA-SIRET territorial / JSON → `AuFilDuBoamp/aufilduboamp_lab_radar_34_github` ;
+- DCE et pièces de marché → `AuFilDuBoamp/aufilduboamp_lab_fonds_documentaire_34_agglo_sete` ;
+- connaissances générales / sources extérieures / Insee-Sirene / Légifrance / CCP / DUME / Chorus Pro / DECP → `AuFilDuBoamp/aufilduboamp_sibsard_reperes` ;
+- marchés Thau / routeur / annonces liées / analyses / préparation 144 → `AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab` ;
+- audit `26JA030_MK` → dépôt spécialisé Sète ;
+- restitution acheteurs / 148 → `AuFilDuBoamp/aufilduboamp_lab_radar_34_spip_148` ;
+- publication publique Thau → `AuFilDuBoamp/Thau-AuFilDuBoamp`.
+
+### Marché Thau : contrat de routage courant
+
+Lire ensemble dans `Thau_AuFilDuBoamp_144_preparations_lab` :
+
+1. `DATA/BSA_SIRET_THAU/bsa_siret_thau_courant.csv` ;
+2. `schema-bsa-siret-thau-142-cols.csv` ;
+3. `GUIDE_IA_BSA_SIRET_THAU.md` ;
+4. `DATA/BSA_SIRET_THAU/MANIFESTE_BSA_SIRET_THAU.json` ;
+5. `DATA/BSA_SIRET_THAU/annonces_liees_thau_courant.csv` ;
+6. `DATA/BSA_SIRET_THAU/MANIFESTE_ANNONCES_LIEES_THAU.json`.
+
+Contrat :
+- routeur principal : **142 colonnes**, `1 ligne = 1 marché pivot` ;
+- annonces liées : **149 colonnes**, `1 ligne = 1 annonce liée explicite`, avec les **139 colonnes BSA-SIRET complètes**, 6 colonnes relation/contrôle et 4 colonnes de routage ;
+- `urlDceGithub` = DCE propre à l'IDWEB lié, s'il existe ;
+- `urlDceMarchePivotGithub` = DCE du marché pivot, explicitement qualifié ;
+- un IDWEB lié est exploitable directement dans cette couche ; Radar intervient ensuite pour JSON réel/qualification spécialisée, ou si l'IDWEB est absent des deux couches Thau ;
+- pour une comparaison BSA stricte, utiliser seulement `B_01` à `B_49`.
+
+La relation reste explicite : `B_01_annonceLie == B_17_idweb` du pivot. Similarité, dates, objet, acheteur, `ContractFolderID` seul ou `B_20_nature` ne créent jamais une relation.
+
+Les routeurs orientent ; ils ne remplacent jamais la source de preuve.
