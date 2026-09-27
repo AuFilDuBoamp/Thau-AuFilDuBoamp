@@ -110,3 +110,19 @@ Pour analyser ou classer un fait relatif à un marché :
 4. ne jamais utiliser la grille CCP comme substitut à la preuve.
 
 Le dépôt d'audit Sète `26JA030_MK` consomme Repères selon `DEPENDANCES_REPERES.md` et ne doit pas redevenir une seconde bibliothèque générale.
+
+
+## Vous êtes ici — règle d'orientation GPT
+
+**Dépôt courant :** `AuFilDuBoamp/Thau-AuFilDuBoamp`  
+**Rôle :** publication publique Thau et actifs de restitution.
+
+Ce dépôt est l'autorité pour ce rôle, pas pour l'ensemble du SIBSARD. Pour toute autre information, partir de la carte du `00_LIRE_IA_SIBSARD.md` et rejoindre la composante compétente.
+
+Règle universelle : `00_LIRE_IA_SIBSARD.md → README.md → README_IA.md → procédure spécialisée → fichiers/contrats/résultats courants`.
+
+Pour un marché Thau, le point d'entrée est `Thau_AuFilDuBoamp_144_preparations_lab`. Son routeur principal conserve **142 colonnes / 1 ligne = 1 pivot** ; sa couche `annonces_liees_thau_courant.csv` comporte désormais **149 colonnes / 1 ligne = 1 annonce liée explicite**, avec BSA-SIRET complet et routages. Un IDWEB lié peut donc être étudié directement dans Thau ; Radar reste nécessaire pour ses JSON réels, une qualification spécialisée, ou un IDWEB absent des deux couches Thau.
+
+`urlDceGithub` d'une annonce liée ne doit jamais être confondu avec `urlDceMarchePivotGithub`. Pour une comparaison BSA stricte, comparer seulement `B_01` à `B_49`.
+
+Les routeurs et restitutions accélèrent l'accès ; la preuve reste dans la source spécialisée compétente.
