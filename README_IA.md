@@ -126,3 +126,10 @@ Pour un marché Thau, le point d'entrée est `Thau_AuFilDuBoamp_144_preparations
 `urlDceGithub` d'une annonce liée ne doit jamais être confondu avec `urlDceMarchePivotGithub`. Pour une comparaison BSA stricte, comparer seulement `B_01` à `B_49`.
 
 Les routeurs et restitutions accélèrent l'accès ; la preuve reste dans la source spécialisée compétente.
+
+
+## Articulation avec le site SPIP — 2 octobre 2026
+
+La collection publique GitHub/nbviewer est maintenue séparément des JSON affichés dans les noisettes SPIP. Le pipeline 0900 Thau publie ces JSON et leur manifeste sur FTP ; il ne met pas à jour les notebooks de ce dépôt. Les fiches **EN PRÉPARATION** restent volontairement à ce stade tant que leur rédaction détaillée n'est pas demandée.
+
+Voir la [procédure de synchronisation Thau](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/SYNCHRONISATION_SIBSARD_SPIP.md) pour les responsabilités et contrôles. Une mise à jour des données du site n'implique pas une mise à jour du présent dépôt.
