@@ -72,11 +72,11 @@ Cette maintenance directe du dépôt public évite d’ajouter un notebook de fa
 
 ## État
 
-**Collection publique expérimentale active : 19 radiographies au 27 septembre 2026.**
+**Collection publique expérimentale active : 20 radiographies au 2 octobre 2026.**
 
 La structure comprend un sommaire et un ensemble de radiographies en préparation. Les titres éditoriaux, objets de restitution et contenus détaillés évolueront progressivement à partir de sources établies.
 
-Dernier ajout au périmètre : `26-92448` — COMMUNE DE SETE — article SPIP 23.
+Dernier ajout au périmètre : `26-93200` — COMMUNE DE SETE — article SPIP 25.
 
 ## Lire
 
