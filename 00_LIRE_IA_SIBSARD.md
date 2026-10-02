@@ -249,3 +249,10 @@ Contrat :
 La relation reste explicite : `B_01_annonceLie == B_17_idweb` du pivot. Similarité, dates, objet, acheteur, `ContractFolderID` seul ou `B_20_nature` ne créent jamais une relation.
 
 Les routeurs orientent ; ils ne remplacent jamais la source de preuve.
+
+
+## Synchronisation SIBSARD → SPIP Thau — 2 octobre 2026
+
+La publication des données Thau suit un flux contrôlé en amont vers JSON/manifeste, FTP et noisettes SPIP. Elle ne synchronise pas toute la base éditoriale : titres, textes saisis, statut de publication et exclusions des listes restent gérés dans SPIP. La collection GitHub/nbviewer suit un circuit séparé et peut rester volontairement en préparation.
+
+Pour les responsabilités, les nouvelles annonces, les rectificatifs, les objets tronqués et la vérification en trois niveaux (exécution, publication distante, affichage), lire la [procédure spécialisée Thau](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/SYNCHRONISATION_SIBSARD_SPIP.md). Les résultats courants et la configuration locale vérifiée déterminent l'état réel ; un routeur à jour ou un verdict global OK ne prouve pas seul l'affichage de chaque article.
