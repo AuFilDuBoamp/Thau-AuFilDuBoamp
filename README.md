@@ -120,3 +120,8 @@ Les routeurs et restitutions accélèrent l'accès ; la preuve reste dans la sou
 La collection publique GitHub/nbviewer est maintenue séparément des JSON affichés dans les noisettes SPIP. Le pipeline 0900 Thau publie ces JSON et leur manifeste sur FTP ; il ne met pas à jour les notebooks de ce dépôt. Les fiches **EN PRÉPARATION** restent volontairement à ce stade tant que leur rédaction détaillée n'est pas demandée.
 
 Voir la [procédure de synchronisation Thau](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/SYNCHRONISATION_SIBSARD_SPIP.md) pour les responsabilités et contrôles. Une mise à jour des données du site n'implique pas une mise à jour du présent dépôt.
+
+
+## Illustrations 95 — articulation du 3 octobre 2026
+
+Pour préparer ou publier des illustrations visuelles ou interactives, rejoindre [la composante Illustrations 95](https://github.com/AuFilDuBoamp/aufilduboamp_lab_illustrations_95/blob/main/00_LIRE_IA_SIBSARD.md), dépôt privé `AuFilDuBoamp/aufilduboamp_lab_illustrations_95` et dossier local de même nom. Elle prépare les agrégats en Python et les restitue avec ECharts et des modèles SPIP sans iframe. Son pilote local est autonome : elle n’est pas inscrite dans la chaîne transversale à sept composantes. Les méthodes générales restent dans Repères ; les contrats et procédures de publication propres aux illustrations restent dans leur dépôt. L’accès à une documentation privée exige une authentification ou des copies fournies par l’utilisateur.
