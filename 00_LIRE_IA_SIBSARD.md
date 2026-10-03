@@ -22,6 +22,7 @@ Pour la reprise documentaire, GitHub peut être plus frais qu’une copie locale
 - `AuFilDuBoamp/aufilduboamp_lab_radar_34_spip_148` — restitution par acheteur de la rubrique 148 ; composante technique distincte dont l’architecture modulaire JSON/manifeste/FTP/PHP/modèles sert de référence utile. Sa priorité éditoriale est actuellement rétrogradée, mais son statut dans le Pilote dépend exclusivement du registre exécutable.
 - `AuFilDuBoamp/COMMUNE-DE-SETE-19-10-2026-Tonte-et-entretien-des-espaces-plantes-B-26-70532-S-213403017` — audit spécialisé du marché espaces verts de Sète.
 - `AuFilDuBoamp/Thau-AuFilDuBoamp` — dépôt **public** des publications Thau ; sortie éditoriale, jamais source de preuve métier.
+- illustrations visuelles ou interactives / rubrique 95 → `AuFilDuBoamp/aufilduboamp_lab_illustrations_95` ; pilote local autonome, hors chaîne du Pilote transversal.
 
 Espaces locaux distincts :
 
@@ -55,6 +56,7 @@ Lancer le Pilote peut déclencher de vrais effets GitHub, Drive, FTP ou HTTP. To
 - marché `26JA030_MK` : audit spécialisé ;
 - analyse territoriale, radiographie, préparation éditoriale et objets de publication Thau : `Thau_AuFilDuBoamp_144_preparations_lab` ;
 - publication publique des notebooks et actifs Thau : `Thau-AuFilDuBoamp` ;
+- illustrations visuelles ou interactives / rubrique 95 → `AuFilDuBoamp/aufilduboamp_lab_illustrations_95` ; pilote local autonome, hors chaîne du Pilote transversal.
 - restitution par acheteur / rubrique 148 : SPIP 148.
 
 Une question composite se traite couche par couche dans les sources compétentes.
@@ -226,6 +228,7 @@ Il ne reconstruit jamais l'architecture de mémoire et ne charge pas les autres 
 - audit `26JA030_MK` → dépôt spécialisé Sète ;
 - restitution acheteurs / 148 → `AuFilDuBoamp/aufilduboamp_lab_radar_34_spip_148` ;
 - publication publique Thau → `AuFilDuBoamp/Thau-AuFilDuBoamp`.
+- illustrations visuelles ou interactives / rubrique 95 → `AuFilDuBoamp/aufilduboamp_lab_illustrations_95` ; pilote local autonome, hors chaîne du Pilote transversal.
 
 ### Marché Thau : contrat de routage courant
 
@@ -256,3 +259,8 @@ Les routeurs orientent ; ils ne remplacent jamais la source de preuve.
 La publication des données Thau suit un flux contrôlé en amont vers JSON/manifeste, FTP et noisettes SPIP. Elle ne synchronise pas toute la base éditoriale : titres, textes saisis, statut de publication et exclusions des listes restent gérés dans SPIP. La collection GitHub/nbviewer suit un circuit séparé et peut rester volontairement en préparation.
 
 Pour les responsabilités, les nouvelles annonces, les rectificatifs, les objets tronqués et la vérification en trois niveaux (exécution, publication distante, affichage), lire la [procédure spécialisée Thau](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/SYNCHRONISATION_SIBSARD_SPIP.md). Les résultats courants et la configuration locale vérifiée déterminent l'état réel ; un routeur à jour ou un verdict global OK ne prouve pas seul l'affichage de chaque article.
+
+
+## Illustrations 95 — articulation du 3 octobre 2026
+
+Pour préparer ou publier des illustrations visuelles ou interactives, rejoindre [la composante Illustrations 95](https://github.com/AuFilDuBoamp/aufilduboamp_lab_illustrations_95/blob/main/00_LIRE_IA_SIBSARD.md), dépôt privé `AuFilDuBoamp/aufilduboamp_lab_illustrations_95` et dossier local de même nom. Elle prépare les agrégats en Python et les restitue avec ECharts et des modèles SPIP sans iframe. Son pilote local est autonome : elle n’est pas inscrite dans la chaîne transversale à sept composantes. Les méthodes générales restent dans Repères ; les contrats et procédures de publication propres aux illustrations restent dans leur dépôt. L’accès à une documentation privée exige une authentification ou des copies fournies par l’utilisateur.
