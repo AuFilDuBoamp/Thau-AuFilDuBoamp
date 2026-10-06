@@ -264,3 +264,8 @@ Pour les responsabilités, les nouvelles annonces, les rectificatifs, les objets
 ## Illustrations 95 — articulation du 3 octobre 2026
 
 Pour préparer ou publier des illustrations visuelles ou interactives, rejoindre [la composante Illustrations 95](https://github.com/AuFilDuBoamp/aufilduboamp_lab_illustrations_95/blob/main/00_LIRE_IA_SIBSARD.md), dépôt privé `AuFilDuBoamp/aufilduboamp_lab_illustrations_95` et dossier local de même nom. Elle prépare les agrégats en Python et les restitue avec ECharts et des modèles SPIP sans iframe. Son pilote local est autonome : elle n’est pas inscrite dans la chaîne transversale à sept composantes. Les méthodes générales restent dans Repères ; les contrats et procédures de publication propres aux illustrations restent dans leur dépôt. L’accès à une documentation privée exige une authentification ou des copies fournies par l’utilisateur.
+
+
+## Routage transversal AUDIT
+
+Pour cartographier l'état local, les dépendances ou les usages techniques entre composantes, consulter `AuFilDuBoamp/AUFILDUBOAMP_SIBSARD_AUDIT`. Ce dépôt transversal sert de routeur ; il ne remplace jamais les sources privées de préparation ni les preuves spécialisées. Principe : documenter les chemins, ne pas dupliquer les vérités spécialisées.
