@@ -72,7 +72,7 @@ Cette maintenance directe du dépôt public évite d’ajouter un notebook de fa
 
 ## État
 
-**Collection publique expérimentale active : 20 radiographies au 2 octobre 2026.**
+**Collection publique expérimentale active : 20 radiographies, état vérifié au 6 octobre 2026.**
 
 La structure comprend un sommaire et un ensemble de radiographies en préparation. Les titres éditoriaux, objets de restitution et contenus détaillés évolueront progressivement à partir de sources établies.
 
@@ -82,7 +82,7 @@ Dernier ajout au périmètre : `26-93200` — COMMUNE DE SETE — article SPIP 2
 
 Le notebook `00_ACCUEIL.ipynb` constitue le sommaire de la collection lorsqu’il est présent dans la version courante.
 
-Le manifeste public comprend 19 entrées au 27 septembre 2026. Ce chiffre est un état daté ; le manifeste courant prévaut.
+Le manifeste public courant comprend **20 entrées**. Contrôle croisé avec le dossier local `Thau_AuFilDuBoamp_144_publications_web` au 6 octobre 2026 : 20 radiographies, 20 IDWEB uniques et 20 fichiers uniques, toutes au statut `EN_PREPARATION`.
 
 Rubrique territoriale : Thau AuFilDuBoamp / rubrique 144.
 
