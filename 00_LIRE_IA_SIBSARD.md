@@ -243,7 +243,7 @@ Lire ensemble dans `Thau_AuFilDuBoamp_144_preparations_lab` :
 
 Contrat :
 - routeur principal : **143 colonnes**, `1 ligne = 1 marché pivot` ;
-- annonces liées : **150 colonnes**, `1 ligne = 1 annonce liée explicite`, avec les **139 colonnes BSA-SIRET complètes**, 6 colonnes relation/contrôle et 4 colonnes de routage ;
+- annonces liées : **150 colonnes**, `1 ligne = 1 annonce liée explicite`, avec les **139 colonnes BSA-SIRET complètes**, 6 colonnes relation/contrôle et 5 colonnes de routage ;
 - `urlDceGithub` = DCE propre à l'IDWEB lié, s'il existe ;
 - `urlDceMarchePivotGithub` = DCE du marché pivot, explicitement qualifié ;
 - un IDWEB lié est exploitable directement dans cette couche ; Radar intervient ensuite pour JSON réel/qualification spécialisée, ou si l'IDWEB est absent des deux couches Thau ;
