@@ -170,7 +170,7 @@ Pour tout travail portant sur un **marché du périmètre Thau**, commencer par 
 Lire ensemble :
 
 1. `DATA/BSA_SIRET_THAU/bsa_siret_thau_courant.csv` ;
-2. `schema-bsa-siret-thau-142-cols.csv` ;
+2. `schema-bsa-siret-thau-143-cols.csv` ;
 3. `GUIDE_IA_BSA_SIRET_THAU.md` ;
 4. `DATA/BSA_SIRET_THAU/MANIFESTE_BSA_SIRET_THAU.json` ;
 5. `DATA/BSA_SIRET_THAU/annonces_liees_thau_courant.csv` ;
@@ -235,15 +235,15 @@ Il ne reconstruit jamais l'architecture de mémoire et ne charge pas les autres 
 Lire ensemble dans `Thau_AuFilDuBoamp_144_preparations_lab` :
 
 1. `DATA/BSA_SIRET_THAU/bsa_siret_thau_courant.csv` ;
-2. `schema-bsa-siret-thau-142-cols.csv` ;
+2. `schema-bsa-siret-thau-143-cols.csv` ;
 3. `GUIDE_IA_BSA_SIRET_THAU.md` ;
 4. `DATA/BSA_SIRET_THAU/MANIFESTE_BSA_SIRET_THAU.json` ;
 5. `DATA/BSA_SIRET_THAU/annonces_liees_thau_courant.csv` ;
 6. `DATA/BSA_SIRET_THAU/MANIFESTE_ANNONCES_LIEES_THAU.json`.
 
 Contrat :
-- routeur principal : **142 colonnes**, `1 ligne = 1 marché pivot` ;
-- annonces liées : **149 colonnes**, `1 ligne = 1 annonce liée explicite`, avec les **139 colonnes BSA-SIRET complètes**, 6 colonnes relation/contrôle et 4 colonnes de routage ;
+- routeur principal : **143 colonnes**, `1 ligne = 1 marché pivot` ;
+- annonces liées : **150 colonnes**, `1 ligne = 1 annonce liée explicite`, avec les **139 colonnes BSA-SIRET complètes**, 6 colonnes relation/contrôle et 4 colonnes de routage ;
 - `urlDceGithub` = DCE propre à l'IDWEB lié, s'il existe ;
 - `urlDceMarchePivotGithub` = DCE du marché pivot, explicitement qualifié ;
 - un IDWEB lié est exploitable directement dans cette couche ; Radar intervient ensuite pour JSON réel/qualification spécialisée, ou si l'IDWEB est absent des deux couches Thau ;
