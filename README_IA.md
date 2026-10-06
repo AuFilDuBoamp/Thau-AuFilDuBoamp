@@ -77,6 +77,19 @@ Un `id_article` explicite peut cibler les données d’un autre article.
 
 Les calculs, rapprochements et décisions métier ne doivent pas être reconstruits dans la couche de publication.
 
+## État public vérifié — 6 octobre 2026
+
+Le dépôt public et le dossier local `Thau_AuFilDuBoamp_144_publications_web` sont cohérents sur le périmètre courant :
+
+- 20 radiographies ;
+- 20 lignes dans `MANIFESTE_PUBLICATIONS.csv` ;
+- 20 IDWEB uniques ;
+- 20 fichiers uniques ;
+- toutes les entrées au statut `EN_PREPARATION` ;
+- `00_ACCUEIL.ipynb` annonce vingt radiographies.
+
+Le dernier ajout du périmètre courant est `26-93200`, article SPIP `25`.
+
 ## Publication
 
 La collection GitHub/nbviewer est distincte du pipeline `0900` SPIP/FTP. Lorsque les informations nécessaires sont déjà établies, la maintenance peut être directe et légère dans ce dépôt : `radiographie_<IDWEB>.ipynb`, `MANIFESTE_PUBLICATIONS.csv`, puis `00_ACCUEIL.ipynb` si le sommaire doit évoluer.
