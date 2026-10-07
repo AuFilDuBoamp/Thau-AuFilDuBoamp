@@ -269,3 +269,8 @@ Pour préparer ou publier des illustrations visuelles ou interactives, rejoindre
 ## Routage transversal AUDIT
 
 Pour cartographier l'état local, les dépendances ou les usages techniques entre composantes, consulter `AuFilDuBoamp/AUFILDUBOAMP_SIBSARD_AUDIT`. Ce dépôt transversal sert de routeur ; il ne remplace jamais les sources privées de préparation ni les preuves spécialisées. Principe : documenter les chemins, ne pas dupliquer les vérités spécialisées.
+
+
+## Actualisation de routage — 7 octobre 2026
+
+- exploitation nationale BSA-SIRET → `AuFilDuBoamp/aufilduboamp_lab_bsa_siret_national` ;
