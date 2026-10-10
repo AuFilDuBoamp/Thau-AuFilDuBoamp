@@ -1,81 +1,71 @@
 # À LIRE PAR TOUTE IA — Socle transversal SIBSARD
 
-## 1. Statut transversal
+## Orientation actuelle — 10 octobre 2026
 
-Ce fichier est un **socle transversal volontairement répliqué** dans les composantes SIBSARD afin qu’une IA retrouve la carte du système quelle que soit sa porte d’entrée GitHub.
+**Vous êtes dans `AuFilDuBoamp/Thau-AuFilDuBoamp` — Publication publique Thau.** Radiographies et manifeste de diffusion ; revenir aux sources amont pour la preuve.
 
-Cette redondance est voulue. Les copies doivent rester cohérentes. Elle ne remplace ni le référentiel général `AuFilDuBoamp/aufilduboamp-ia`, ni les README et contrats spécialisés de chaque composante.
+Lire [README](https://github.com/AuFilDuBoamp/Thau-AuFilDuBoamp/blob/main/README.md) puis [README IA](https://github.com/AuFilDuBoamp/Thau-AuFilDuBoamp/blob/main/README_IA.md). Les données, contrats et résultats spécialisés ci-dessous font foi selon la question ; la carte ne constitue pas une preuve métier.
 
-Pour tout travail substantiel : lire d’abord le référentiel général, puis ce socle, les README/procédures de la composante, ses fichiers courants et enfin le briefing utilisateur.
+### Documents utiles ici
 
-Pour la reprise documentaire, GitHub peut être plus frais qu’une copie locale. Pour l’état exécutable réel, les fichiers locaux courants prévalent pour notebooks, CONFIG, résultats, secrets et fichiers de travail. Toute divergence GitHub/local doit être signalée, jamais corrigée par supposition.
+- [MANIFESTE_PUBLICATIONS.csv](https://github.com/AuFilDuBoamp/Thau-AuFilDuBoamp/blob/main/MANIFESTE_PUBLICATIONS.csv)
 
-## 2. Carte courante
+## Carte commune SIBSA / SIBSARD — contrôle du 10 octobre 2026
 
-- `AuFilDuBoamp/SIBSARD_PILOTE` — orchestration transversale des maîtres autorisés, journalisation et bilan global ; hors pipeline propriétaire de production du BSA.
-- `AuFilDuBoamp/aufilduboamp_lab_archives_json_bsa_et_ftp_integral` — maintenance technique des archives JSON BSA et corpus FTP autorisés.
-- `AuFilDuBoamp/aufilduboamp_lab_eda_eforms` — référentiel spécialisé pour comprendre prudemment les structures eForms observées.
-- `AuFilDuBoamp/aufilduboamp_lab_radar_34_github` — annonces, BSA-SIRET territorial, identifiants, index et JSON ; point de départ des analyses de marchés du Radar.
-- `AuFilDuBoamp/aufilduboamp_lab_fonds_documentaire_34_agglo_sete` — fonds DCE ; dérivés légers traçables sur GitHub, originaux locaux/Drive lorsque nécessaires.
-- `AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab` — composante privée de préparation de **Thau AuFilDuBoamp** : sélection territoriale, rapprochements, identité acheteur, analyses, radiographies, objets de publication et préparation des restitutions de la rubrique 144.
-- `AuFilDuBoamp/aufilduboamp_sibsard_reperes` — sources extérieures autorisées, textes juridiques, données de référence, méthodes, tutoriels, vocabulaire et capitalisation transversale.
-- `AuFilDuBoamp/aufilduboamp_lab_radar_34_spip_148` — restitution par acheteur de la rubrique 148 ; composante technique distincte dont l’architecture modulaire JSON/manifeste/FTP/PHP/modèles sert de référence utile. Sa priorité éditoriale est actuellement rétrogradée, mais son statut dans le Pilote dépend exclusivement du registre exécutable.
-- `AuFilDuBoamp/COMMUNE-DE-SETE-19-10-2026-Tonte-et-entretien-des-espaces-plantes-B-26-70532-S-213403017` — audit spécialisé du marché espaces verts de Sète.
-- `AuFilDuBoamp/Thau-AuFilDuBoamp` — dépôt **public** des publications Thau ; sortie éditoriale, jamais source de preuve métier.
-- illustrations visuelles ou interactives / rubrique 95 → `AuFilDuBoamp/aufilduboamp_lab_illustrations_95` ; pilote local autonome, hors chaîne du Pilote transversal.
+Règle d’or : un GPT doit savoir **où il est, quelle composante répond à sa question, quelle source fait foi et où se trouve la preuve**, quelle que soit sa porte d’entrée. La mémoire assure la continuité ; elle ne remplace pas les fichiers réellement lus.
 
-Espaces locaux distincts :
+Périmètres distincts : **12 dépôts coordonnés**, plus le **référentiel maître** et l’**AUDIT transversal**, soit 14 dépôts parcourus lors de ce contrôle. La chaîne du Pilote comporte **8 composantes** dans la CONFIG locale contrôlée le 7 octobre, avec une exécution 8/8 OK établie le 9 octobre. Illustrations 95, AUDIT et cartographie ne sont pas ajoutés au Pilote par leur seule présence. Relire la CONFIG et le dernier résultat local pour une exécution ultérieure.
 
-- préparation privée : `Thau_AuFilDuBoamp_144_preparations_lab` ;
-- produits Web immédiatement publiables : `Thau_AuFilDuBoamp_144_publications_web`.
+Chaîne documentée : `Archives → eForms → Radar → BSA-SIRET national → DCE → SPIP 144 → Repères → SPIP 148`. National et DCE sont non bloquants dans la CONFIG contrôlée ; les six autres composantes sont bloquantes. Le registre local reste l’autorité exécutable.
 
-Le répertoire FTP de publication Thau porte également le nom `Thau_AuFilDuBoamp_144_publications_web`, mais il s’agit d’un espace distant distinct du dossier local de publications.
+| Besoin / composante | Porte d’entrée | Ressource ou limite essentielle |
+|---|---|---|
+| Référentiel maître | [aufilduboamp-ia](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/00_LIRE_IA_SIBSARD.md) | Mission, architecture, gouvernance et orientation vers les composantes. |
+| Pilote transversal | [SIBSARD_PILOTE](https://github.com/AuFilDuBoamp/SIBSARD_PILOTE/blob/main/00_LIRE_IA_SIBSARD.md) | Orchestration des maîtres autorisés ; CONFIG locale et résultats réels pour l’état exécutable. |
+| Archives JSON BSA | [aufilduboamp_lab_archives_json_bsa_et_ftp_integral](https://github.com/AuFilDuBoamp/aufilduboamp_lab_archives_json_bsa_et_ftp_integral/blob/main/00_LIRE_IA_SIBSARD.md) | Maintenance des archives nationales locales et du corpus quotidien ; contrats et résultats locaux pour les opérations. |
+| Référentiel eForms | [aufilduboamp_lab_eda_eforms](https://github.com/AuFilDuBoamp/aufilduboamp_lab_eda_eforms/blob/main/00_LIRE_IA_SIBSARD.md) | Profils et observations structurelles ; le JSON réel reste nécessaire pour un avis précis. |
+| Radar territorial | [aufilduboamp_lab_radar_34_github](https://github.com/AuFilDuBoamp/aufilduboamp_lab_radar_34_github/blob/main/00_LIRE_IA_SIBSARD.md) | Annonces, BSA-SIRET territorial et JSON réels routés par les manifestes v3. |
+| BSA-SIRET national | [aufilduboamp_lab_bsa_siret_national](https://github.com/AuFilDuBoamp/aufilduboamp_lab_bsa_siret_national/blob/main/00_LIRE_IA_SIBSARD.md) | Recherche nationale au grain avis, index contrôlés, moteur Python et enrichissement par IDWEB vers les 139 colonnes. |
+| SPIP 148 | [aufilduboamp_lab_radar_34_spip_148](https://github.com/AuFilDuBoamp/aufilduboamp_lab_radar_34_spip_148/blob/main/00_LIRE_IA_SIBSARD.md) | Restitution par acheteur ; priorité éditoriale rétrogradée, statut technique déterminé par la CONFIG du Pilote. |
+| Fonds DCE | [aufilduboamp_lab_fonds_documentaire_34_agglo_sete](https://github.com/AuFilDuBoamp/aufilduboamp_lab_fonds_documentaire_34_agglo_sete/blob/main/00_LIRE_IA_SIBSARD.md) | Pièces réellement collectées, originaux locaux/Drive et dérivés légers GitHub traçables. |
+| Repères | [aufilduboamp_sibsard_reperes](https://github.com/AuFilDuBoamp/aufilduboamp_sibsard_reperes/blob/main/00_LIRE_IA_SIBSARD.md) | Connaissances générales, sources autorisées, Insee/Sirene, NAF, CCP, DUME, DECP et Chorus Pro. |
+| Préparation Thau 144 | [Thau_AuFilDuBoamp_144_preparations_lab](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/00_LIRE_IA_SIBSARD.md) | Point d’entrée prioritaire pour un marché Thau : pivots, annonces liées, changements, SIRET acheteurs et analyses. |
+| Audit Sète 26JA030_MK | [COMMUNE-DE-SETE-19-10-2026-Tonte-et-entretien-des-espaces-plantes-B-26-70532-S-213403017](https://github.com/AuFilDuBoamp/COMMUNE-DE-SETE-19-10-2026-Tonte-et-entretien-des-espaces-plantes-B-26-70532-S-213403017/blob/main/00_LIRE_IA_SIBSARD.md) | Preuves et analyses propres au cas ; consommateur de Repères, sans bibliothèque générale parallèle. |
+| Publication publique Thau | [Thau-AuFilDuBoamp](https://github.com/AuFilDuBoamp/Thau-AuFilDuBoamp/blob/main/00_LIRE_IA_SIBSARD.md) | Radiographies et manifeste de diffusion ; revenir aux sources amont pour la preuve. |
+| Illustrations 95 | [aufilduboamp_lab_illustrations_95](https://github.com/AuFilDuBoamp/aufilduboamp_lab_illustrations_95/blob/main/00_LIRE_IA_SIBSARD.md) | Fabrication et publication des illustrations ; version documentée active en SVG statique, pilote autonome. |
+| Audit transversal | [AUFILDUBOAMP_SIBSARD_AUDIT](https://github.com/AuFilDuBoamp/AUFILDUBOAMP_SIBSARD_AUDIT/blob/main/00_LIRE_IA_SIBSARD.md) | Photographie statique du local, références et dépendances ; index de navigation daté, non preuve métier. |
 
-L’ancien dépôt `aufilduboamp_obs_34_agglo_sete` n’est plus une composante GitHub courante. Les fonctions opérationnelles ont été réparties entre Thau 144 et Repères. Une mention dans un document ancien peut être conservée comme provenance historique, mais ce dépôt ne doit plus être proposé comme destination de travail.
+### Espaces locaux et sorties en ligne
 
-## 3. Chaîne Pilote
+- `aufilduboamp_carto_ia` : moteur cartographique local à utiliser pour les cartes ; [documentation de référence](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AN_cartographie_locale.md). Les fonds validés et métadonnées restent locaux. Pas de fond vert uniforme sur les communes ; employer les marqueurs convenus.
+- `aufilduboamp_maj_pipeline` et son chantier : production amont protégée du BSA, distincte du Pilote. `_SECRETS` : accès et paramètres protégés, jamais à publier.
+- `Thau_AuFilDuBoamp_144_publications_web` local, FTP et dépôt public Thau : espaces distincts ; la mise à jour de l’un ne prouve pas celle des autres.
+- Site SPIP : restitution publique ; data.gouv.fr : diffusion des jeux ouverts qualifiés ; GitHub/nbviewer : collection publique Thau ; Drive : sauvegarde des originaux DCE selon le contrat spécialisé. Ces espaces ne remplacent pas les sources amont.
 
-Ordre fonctionnel courant documenté :
+### Parcours courts à appliquer
 
-`Archives → eForms → Radar → DCE → SPIP 144 → Repères → SPIP 148`
+1. **Marché Thau** : routeur pivot 143 colonnes + couche liée 150 colonnes + schéma et manifestes. Vérifier les annonces liées explicites ; ne pas créer de relation par similarité. Puis JSON Radar ou DCE selon la question.
+2. **Recherche nationale** : [guide du moteur](https://github.com/AuFilDuBoamp/aufilduboamp_lab_bsa_siret_national/blob/main/RECHERCHE/GUIDE_MOTEUR_RECHERCHE.md) → même commit pour code, manifestes et fichiers → exécution Python → résultats confirmés/indéterminés et totaux → enrichissement par IDWEB. Grain avis, jamais lot ou marché supposé. JSON nationaux : pointeurs locaux, non contenus GitHub.
+3. **NAF / activité** : [guide NAF](https://github.com/AuFilDuBoamp/aufilduboamp_sibsard_reperes/blob/main/SOURCES/INSEE/NAF/GUIDE_IA_NAF.md) → version déclarée et hiérarchie correspondante → codes explicites. NAF, catégorie juridique, objet du marché et CPV restent distincts.
+4. **Établissements Thau** : [guide SIRET](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/GUIDE_IA_SIRET_ACHETEURS_THAU.md) → `urlSiretAcheteursThauGithub` → filtre sur `siret_siren`. La vue conserve actifs et cessés ; la localisation du siège ne prouve pas le lieu d’exécution.
+5. **DCE** : [guide DCE](https://github.com/AuFilDuBoamp/aufilduboamp_lab_fonds_documentaire_34_agglo_sete/blob/main/GUIDE_IA_ANALYSER_DCE.md) → `GITHUB/README_DCE.md` du dossier réellement trouvé → manifeste → dérivés → original autorisé si nécessaire. Conserver les versions et les contradictions.
+6. **Usage technique d’un fichier** : AUDIT → manifeste daté → routeur/références/dépendances → code ou contrat spécialisé. Une absence dans l’audit statique ne prouve pas l’absence d’usage.
 
-L’identifiant fonctionnel `SPIP 144` du Pilote correspond désormais au dossier local `Thau_AuFilDuBoamp_144_preparations_lab`.
+### Discipline commune
 
-SPIP 148 reste, tant que le registre exécutable courant le confirme, la dernière composante active et bloquante. Le DCE est non bloquant au niveau transversal. **Le registre local `SIBSARD_PILOTE/CONFIG/chaine_sibsard.json` prévaut toujours** pour ordre, activation, chemins, maîtres et caractère bloquant.
+Lire `00_LIRE_IA_SIBSARD.md → README.md → README_IA.md → procédure utile → manifeste/schéma/fichier courant`. Si l’entrée est un guide, une donnée ou un sous-dossier, remonter à ces documents avant interprétation. Si l’accès manque, le dire et demander la pièce utile ; ne pas contourner vers Internet.
 
-Lancer le Pilote peut déclencher de vrais effets GitHub, Drive, FTP ou HTTP. Toujours annoncer cette portée.
+GitHub certifié est le point de départ documentaire et des recherches GPT. L’état exécutable local réellement vérifié prévaut pour notebooks, CONFIG et résultats. Signaler toute divergence, toute couverture limitée et toute lecture partielle. Un run OK ne prouve pas à lui seul le rendu du site ni l’exhaustivité métier.
 
-## 4. Routage
+Conserver les intitulés et valeurs exacts, y compris fautes et espaces. Distinguer fait, observation, interprétation, hypothèse et non établi. Pas de Web extérieur sans demande expresse ou autorisation préalablement documentée. Une URL présente n’autorise pas sa consultation automatique. Ne pas renommer les conversations.
 
-- orchestration, états transversaux, ordre d’exécution : Pilote ;
-- archives JSON BSA et corpus FTP : Archives ;
-- annonce, identifiant, BSA-SIRET, routage JSON d’un marché : Radar ;
-- structure eForms : eForms, puis JSON réel du marché si nécessaire ;
-- RC, CCAP, CCTP, BPU, DQE et autres DCE : fonds documentaire ;
-- texte juridique, site, donnée de référence, documentation ou autre source extérieure : Repères ;
-- marché `26JA030_MK` : audit spécialisé ;
-- analyse territoriale, radiographie, préparation éditoriale et objets de publication Thau : `Thau_AuFilDuBoamp_144_preparations_lab` ;
-- publication publique des notebooks et actifs Thau : `Thau-AuFilDuBoamp` ;
-- illustrations visuelles ou interactives / rubrique 95 → `AuFilDuBoamp/aufilduboamp_lab_illustrations_95` ; pilote local autonome, hors chaîne du Pilote transversal.
-- restitution par acheteur / rubrique 148 : SPIP 148.
+Les suggestions approximatives de noms sont autorisées pour résoudre une ambiguïté de recherche, avec candidats réels et SIREN ; elles ne deviennent jamais des faits ni une sélection silencieuse. Les règles précises du moteur, dont l’exclusion par défaut des SIREN blancs et le traitement des autres cellules vides, sont canoniques dans son contrat spécialisé.
 
-Une question composite se traite couche par couche dans les sources compétentes.
+Répliquer la carte pour faciliter l’orientation ; conserver les vérités spécialisées dans leur composante. Les nombres ci-dessus sont datés ; les manifestes restent la référence courante. Aucun secret, pipeline propriétaire ou corpus national privé n’est rendu public par cette carte. Les nouveaux notebooks de travail demandés doivent porter un numéro >900 ; ne pas renuméroter les chaînes canoniques existantes.
 
-## 5. Thau 144 et architecture de restitution
+---
 
-Thau 144 est la priorité éditoriale courante. Le périmètre vise les annonces concernant le territoire de Sète Agglopôle Méditerranée, avec liaison contrôlée des avis, rectificatifs et attributions d’un même marché.
-
-La préparation privée est le goulot de contrôle : sélection, rapprochements, identité juridique de l’acheteur, cohérence, provenance, analyse éditoriale, fabrication des JSON/objets SPIP et productions publiques nettoyées.
-
-L’identité acheteur repose sur le SIREN et la dénomination officielle établie ; le libellé publié dans une annonce reste une information distincte.
-
-Architecture éditoriale cible :
-
-`sources qualifiées → traitements/analyses en amont → objets stables → JSON + manifestes → FTP → PHP commun léger → modèles/noisettes SPIP → composition éditoriale libre`
-
-La rubrique 144 est **tout en noisettes** : le squelette d’article ne doit pas imposer un chapo ou un corps métier automatique. Les articles composent explicitement les modèles nécessaires.
-
-PHP/SPIP ne doit pas devenir un moteur métier parallèle : calculs, agrégations, rapprochements et décisions restent dans les notebooks ou traitements de préparation. SPIP lit et restitue des contrats validés.
+Les sections spécialisées et jalons datés ci-dessous restent à lire selon le sujet. Un état ancien ne doit pas être présenté comme l’état actuel.
 
 ## 6. Discipline de preuve
 
@@ -119,141 +109,6 @@ Validation humaine avant suppression importante, écrasement d’un travail vali
 
 Ne jamais divulguer pipeline propriétaire BSA, méthodes sensibles, règles confidentielles de rapprochement, secrets, tokens, BSA-SIRET national complet, archives nationales non publiables ou composants confidentiels.
 
-## Convention documentaire commune — 24 septembre 2026
-
-### Repères = source canonique des connaissances générales
-
-Le dépôt `AuFilDuBoamp/aufilduboamp_sibsard_reperes` est la **source canonique unique** pour les connaissances générales réutilisables :
-
-- méthodes, tutoriels et vocabulaire ;
-- sources extérieures autorisées et règles de provenance ;
-- Code de la commande publique et documentation Légifrance ;
-- grille chronologique CCP de classement des faits marché ;
-- références Insee / Sirene ;
-- DUME, données essentielles et Chorus Pro ;
-- autres capitalisations transversales.
-
-Une composante spécialisée conserve ses **preuves, données, contrats et procédures propres**. Elle ne doit pas recopier une documentation générale déjà tenue dans Repères, sauf nécessité fonctionnelle, probatoire ou technique explicitement documentée.
-
-### Classement CCP des faits marché
-
-Pour toute analyse d'un marché :
-
-1. établir d'abord le fait dans la source compétente : Radar, JSON eForms réel, DCE, source extérieure qualifiée, etc. ;
-2. conserver la provenance et le statut de preuve dans la composante source ou l'étude de cas ;
-3. si le fait doit être structuré dans la vie du marché, lire :
-   `AuFilDuBoamp/aufilduboamp_sibsard_reperes/CAPITALISATION/CCP_CHRONOLOGIE_MARCHE/00_LIRE_IA_CCP.md` ;
-4. appliquer la rubrique CCP sans déplacer ni dupliquer la preuve.
-
-Le Code officiel est documenté sous :
-`SOURCES/DILA/LEGIFRANCE/CODE_COMMANDE_PUBLIQUE/`.
-
-### Audit Sète
-
-Le dépôt `COMMUNE-DE-SETE-19-10-2026-Tonte-et-entretien-des-espaces-plantes-B-26-70532-S-213403017` est une **étude de cas consommatrice de Repères**.
-
-Il conserve les preuves et constats propres au marché `26JA030_MK`. Ses besoins généraux doivent être satisfaits depuis Repères selon `DEPENDANCES_REPERES.md`, sans recréer de glossaire, tutoriel, source juridique ou grille CCP parallèle.
-
-### Règle de reprise GPT
-
-Quelle que soit la porte d'entrée :
-
-`00_LIRE_IA_SIBSARD.md → README.md → README_IA.md → procédure spécialisée utile → Repères seulement si besoin transversal`.
-
-Ne pas charger en masse les autres dépôts. Router la question vers la composante compétente puis lire uniquement les fichiers nécessaires.
-
-## Point d'entrée marché Thau — convention commune du 27 septembre 2026
-
-Pour tout travail portant sur un **marché du périmètre Thau**, commencer par :
-`AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab`.
-
-Lire ensemble :
-
-1. `DATA/BSA_SIRET_THAU/bsa_siret_thau_courant.csv` ;
-2. `schema-bsa-siret-thau-143-cols.csv` ;
-3. `GUIDE_IA_BSA_SIRET_THAU.md` ;
-4. `DATA/BSA_SIRET_THAU/MANIFESTE_BSA_SIRET_THAU.json` ;
-5. `DATA/BSA_SIRET_THAU/annonces_liees_thau_courant.csv` ;
-6. `DATA/BSA_SIRET_THAU/MANIFESTE_ANNONCES_LIEES_THAU.json`.
-
-Le **routeur Thau principal** reste `bsa_siret_thau_courant.csv` et conserve `1 ligne = 1 marché pivot`. La table `annonces_liees_thau_courant.csv` est séparée et permet la navigation `marché pivot ↔ annonce(s) liée(s)`.
-
-Routage obligatoire :
-- IDWEB pivot → vérifier systématiquement s'il possède une ou plusieurs annonces liées et les signaler avant analyse ;
-- IDWEB absent du routeur principal → rechercher d'abord `idwebAnnonceLiee` ; s'il est trouvé, exploiter directement sa ligne enrichie et identifier aussi `idwebMarchePivot` pour le contexte du marché ;
-- IDWEB absent des deux couches Thau → seulement alors passer au Radar/BSA-SIRET 34 pour qualification.
-
-Une relation n'est créée que lorsqu'elle est **explicitement documentée**. La règle courante est l'égalité exacte de `B_01_annonceLie` avec le `B_17_idweb` du marché pivot. Similarité d'objet ou d'acheteur, proximité des dates, `ContractFolderID` seul et `B_20_nature` ne créent jamais une relation ; ils peuvent seulement contribuer au contrôle d'une relation déjà établie.
-
-Les deux couches sont des **index-routeurs**, jamais des preuves autonomes. Pour une fiche exhaustive du pivot : `variable → définition du schéma → valeur`. Pour une annonce liée, lire directement ses colonnes BSA-SIRET complètes dans `annonces_liees_thau_courant.csv` ; le schéma BSA-SIRET reste la référence de définition des variables historiques.
-
-Depuis le pivot :
-- `B_38_urlAvis` → BOAMP ;
-- `B_41_GESTION_URL_JSON` et `B_43_DONNEES_URL_JSON` → JSON réels Radar ;
-- `urlDceGithub` → DCE ;
-- `urlAnnuaireEntreprise` → Annuaire des entreprises ;
-- `urlSiteAcheteur` → site institutionnel.
-
-Pour tout JSON eForms, lire avant interprétation `aufilduboamp_lab_eda_eforms/GUIDE_IA_EXPLORER_JSON_EFORMS.md`. Ne pas appliquer mécaniquement cette méthode à une structure non eForms telle que `FNSimple`.
-
-La montée en priorité de Thau **ne diminue pas le rôle de Repères** : `aufilduboamp_sibsard_reperes` reste la source canonique des connaissances générales réutilisables et des sources extérieures capitalisées.
-
-Règles synthétiques :
-
-`marché Thau → routeur principal + annonces liées + schéma → source spécialisée → preuve → analyse → restitution`
-
-`IDWEB absent → annonces liées Thau → Radar/BSA-SIRET 34 → relation éventuelle → marché routé ou nouvelle intégration`
-
-Ne pas parcourir en masse les autres composantes avant d'avoir exploité ce point d'entrée et identifié le besoin réel.
-
-
-## Règle d'or — orientation GPT depuis n'importe quelle composante
-
-Un GPT qui arrive ici doit d'abord **identifier le dépôt courant et son rôle**, puis lire :
-
-`00_LIRE_IA_SIBSARD.md → README.md → README_IA.md → procédure spécialisée utile → fichiers/contrats/résultats courants`.
-
-Il ne reconstruit jamais l'architecture de mémoire et ne charge pas les autres dépôts en masse.
-
-### Carte SIBSARD/SIBSA
-
-- référentiel général / architecture / gouvernance → `AuFilDuBoamp/aufilduboamp-ia` ;
-- orchestration / état transversal → `AuFilDuBoamp/SIBSARD_PILOTE` ;
-- archives JSON BSA / FTP → `AuFilDuBoamp/aufilduboamp_lab_archives_json_bsa_et_ftp_integral` ;
-- structures eForms → `AuFilDuBoamp/aufilduboamp_lab_eda_eforms` ;
-- annonces / IDWEB / BSA-SIRET territorial / JSON → `AuFilDuBoamp/aufilduboamp_lab_radar_34_github` ;
-- DCE et pièces de marché → `AuFilDuBoamp/aufilduboamp_lab_fonds_documentaire_34_agglo_sete` ;
-- connaissances générales / sources extérieures / Insee-Sirene / Légifrance / CCP / DUME / Chorus Pro / DECP → `AuFilDuBoamp/aufilduboamp_sibsard_reperes` ;
-- marchés Thau / routeur / annonces liées / analyses / préparation 144 → `AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab` ;
-- audit `26JA030_MK` → dépôt spécialisé Sète ;
-- restitution acheteurs / 148 → `AuFilDuBoamp/aufilduboamp_lab_radar_34_spip_148` ;
-- publication publique Thau → `AuFilDuBoamp/Thau-AuFilDuBoamp`.
-- illustrations visuelles ou interactives / rubrique 95 → `AuFilDuBoamp/aufilduboamp_lab_illustrations_95` ; pilote local autonome, hors chaîne du Pilote transversal.
-
-### Marché Thau : contrat de routage courant
-
-Lire ensemble dans `Thau_AuFilDuBoamp_144_preparations_lab` :
-
-1. `DATA/BSA_SIRET_THAU/bsa_siret_thau_courant.csv` ;
-2. `schema-bsa-siret-thau-143-cols.csv` ;
-3. `GUIDE_IA_BSA_SIRET_THAU.md` ;
-4. `DATA/BSA_SIRET_THAU/MANIFESTE_BSA_SIRET_THAU.json` ;
-5. `DATA/BSA_SIRET_THAU/annonces_liees_thau_courant.csv` ;
-6. `DATA/BSA_SIRET_THAU/MANIFESTE_ANNONCES_LIEES_THAU.json`.
-
-Contrat :
-- routeur principal : **143 colonnes**, `1 ligne = 1 marché pivot` ;
-- annonces liées : **150 colonnes**, `1 ligne = 1 annonce liée explicite`, avec les **139 colonnes BSA-SIRET complètes**, 6 colonnes relation/contrôle et 5 colonnes de routage ;
-- `urlDceGithub` = DCE propre à l'IDWEB lié, s'il existe ;
-- `urlDceMarchePivotGithub` = DCE du marché pivot, explicitement qualifié ;
-- un IDWEB lié est exploitable directement dans cette couche ; Radar intervient ensuite pour JSON réel/qualification spécialisée, ou si l'IDWEB est absent des deux couches Thau ;
-- pour une comparaison BSA stricte, utiliser seulement `B_01` à `B_49`.
-
-La relation reste explicite : `B_01_annonceLie == B_17_idweb` du pivot. Similarité, dates, objet, acheteur, `ContractFolderID` seul ou `B_20_nature` ne créent jamais une relation.
-
-Les routeurs orientent ; ils ne remplacent jamais la source de preuve.
-
-
 ## Synchronisation SIBSARD → SPIP Thau — 2 octobre 2026
 
 La publication des données Thau suit un flux contrôlé en amont vers JSON/manifeste, FTP et noisettes SPIP. Elle ne synchronise pas toute la base éditoriale : titres, textes saisis, statut de publication et exclusions des listes restent gérés dans SPIP. La collection GitHub/nbviewer suit un circuit séparé et peut rester volontairement en préparation.
@@ -261,16 +116,3 @@ La publication des données Thau suit un flux contrôlé en amont vers JSON/mani
 Pour les responsabilités, les nouvelles annonces, les rectificatifs, les objets tronqués et la vérification en trois niveaux (exécution, publication distante, affichage), lire la [procédure spécialisée Thau](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/SYNCHRONISATION_SIBSARD_SPIP.md). Les résultats courants et la configuration locale vérifiée déterminent l'état réel ; un routeur à jour ou un verdict global OK ne prouve pas seul l'affichage de chaque article.
 
 
-## Illustrations 95 — articulation du 3 octobre 2026
-
-Pour préparer ou publier des illustrations visuelles ou interactives, rejoindre [la composante Illustrations 95](https://github.com/AuFilDuBoamp/aufilduboamp_lab_illustrations_95/blob/main/00_LIRE_IA_SIBSARD.md), dépôt privé `AuFilDuBoamp/aufilduboamp_lab_illustrations_95` et dossier local de même nom. Elle prépare les agrégats en Python et les restitue avec ECharts et des modèles SPIP sans iframe. Son pilote local est autonome : elle n’est pas inscrite dans la chaîne transversale à sept composantes. Les méthodes générales restent dans Repères ; les contrats et procédures de publication propres aux illustrations restent dans leur dépôt. L’accès à une documentation privée exige une authentification ou des copies fournies par l’utilisateur.
-
-
-## Routage transversal AUDIT
-
-Pour cartographier l'état local, les dépendances ou les usages techniques entre composantes, consulter `AuFilDuBoamp/AUFILDUBOAMP_SIBSARD_AUDIT`. Ce dépôt transversal sert de routeur ; il ne remplace jamais les sources privées de préparation ni les preuves spécialisées. Principe : documenter les chemins, ne pas dupliquer les vérités spécialisées.
-
-
-## Actualisation de routage — 7 octobre 2026
-
-- exploitation nationale BSA-SIRET → `AuFilDuBoamp/aufilduboamp_lab_bsa_siret_national` ;

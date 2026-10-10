@@ -1,5 +1,11 @@
 # README IA — Thau AuFilDuBoamp — dépôt public
 
+## Orientation et carte des ressources — 10 octobre 2026
+
+**Ici : Publication publique Thau.** Radiographies et manifeste de diffusion ; revenir aux sources amont pour la preuve.
+
+Lire la [porte d’entrée locale avec la carte complète](https://github.com/AuFilDuBoamp/Thau-AuFilDuBoamp/blob/main/00_LIRE_IA_SIBSARD.md) ; la [carte maître AM](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AM_ecosysteme_sibsard_sibsa_observatoire.md) décrit les ressources disponibles et leur source de vérité. Les états chiffrés plus anciens du présent document restent des jalons datés, à contrôler dans les manifestes ou résultats courants.
+
 ## Ordre de reprise
 
 1. `00_LIRE_IA_SIBSARD.md` ;
@@ -150,7 +156,7 @@ Voir la [procédure de synchronisation Thau](https://github.com/AuFilDuBoamp/Tha
 
 ## Illustrations 95 — articulation du 3 octobre 2026
 
-Pour préparer ou publier des illustrations visuelles ou interactives, rejoindre [la composante Illustrations 95](https://github.com/AuFilDuBoamp/aufilduboamp_lab_illustrations_95/blob/main/00_LIRE_IA_SIBSARD.md), dépôt privé `AuFilDuBoamp/aufilduboamp_lab_illustrations_95` et dossier local de même nom. Elle prépare les agrégats en Python et les restitue avec ECharts et des modèles SPIP sans iframe. Son pilote local est autonome : elle n’est pas inscrite dans la chaîne transversale à sept composantes. Les méthodes générales restent dans Repères ; les contrats et procédures de publication propres aux illustrations restent dans leur dépôt. L’accès à une documentation privée exige une authentification ou des copies fournies par l’utilisateur.
+Pour préparer ou publier des illustrations visuelles ou interactives, rejoindre [la composante Illustrations 95](https://github.com/AuFilDuBoamp/aufilduboamp_lab_illustrations_95/blob/main/00_LIRE_IA_SIBSARD.md), dépôt privé `AuFilDuBoamp/aufilduboamp_lab_illustrations_95` et dossier local de même nom. Elle prépare les agrégats en Python et les restitue dans sa version active documentée en SVG statique avec modèles SPIP, sans iframe ; le détail reste dans sa procédure spécialisée. Son pilote local est autonome : elle n’est pas inscrite dans la chaîne transversale. Les méthodes générales restent dans Repères ; les contrats et procédures de publication propres aux illustrations restent dans leur dépôt. L’accès à une documentation privée exige une authentification ou des copies fournies par l’utilisateur.
 
 
 ## Routage transversal AUDIT
