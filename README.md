@@ -1,5 +1,8 @@
 # Thau AuFilDuBoamp
 
+<!-- NAVIGATION_DOCUMENTAIRE_2026_10_11 -->
+> **Navigation GPT :** [répertoire documentaire par besoin et inventaire complet](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AP_navigation_documentaire_sibsa.md). Commencer ici : [porte d'entrée](00_LIRE_IA_SIBSARD.md) → [README](README.md) → [README IA](README_IA.md), puis le guide utile et ses fichiers courants. La carte route ; la source spécialisée établit le fait. Les jalons datés ne sont pas des consignes actuelles.
+
 ## Orientation et carte des ressources — 10 octobre 2026
 
 **Ici : Publication publique Thau.** Radiographies et manifeste de diffusion ; revenir aux sources amont pour la preuve.

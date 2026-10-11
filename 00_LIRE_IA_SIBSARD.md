@@ -1,5 +1,8 @@
 # À LIRE PAR TOUTE IA — Socle transversal SIBSARD
 
+<!-- NAVIGATION_DOCUMENTAIRE_2026_10_11 -->
+> **Navigation GPT :** [répertoire documentaire par besoin et inventaire complet](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AP_navigation_documentaire_sibsa.md). Commencer ici : [porte d'entrée](00_LIRE_IA_SIBSARD.md) → [README](README.md) → [README IA](README_IA.md), puis le guide utile et ses fichiers courants. La carte route ; la source spécialisée établit le fait. Les jalons datés ne sont pas des consignes actuelles.
+
 ## Orientation actuelle — 10 octobre 2026
 
 **Vous êtes dans `AuFilDuBoamp/Thau-AuFilDuBoamp` — Publication publique Thau.** Radiographies et manifeste de diffusion ; revenir aux sources amont pour la preuve.
@@ -45,7 +48,7 @@ Chaîne documentée : `Archives → eForms → Radar → BSA-SIRET national → 
 ### Parcours courts à appliquer
 
 1. **Marché Thau** : routeur pivot 143 colonnes + couche liée 150 colonnes + schéma et manifestes. Vérifier les annonces liées explicites ; ne pas créer de relation par similarité. Puis JSON Radar ou DCE selon la question.
-2. **Recherche nationale** : [guide du moteur](https://github.com/AuFilDuBoamp/aufilduboamp_lab_bsa_siret_national/blob/main/RECHERCHE/GUIDE_MOTEUR_RECHERCHE.md) → même commit pour code, manifestes et fichiers → exécution Python → résultats confirmés/indéterminés et totaux → enrichissement par IDWEB. Grain avis, jamais lot ou marché supposé. JSON nationaux : pointeurs locaux, non contenus GitHub.
+2. **Recherche nationale** : [guide du moteur](https://github.com/AuFilDuBoamp/aufilduboamp_lab_bsa_siret_national/blob/main/RECHERCHE/GUIDE_MOTEUR_RECHERCHE.md) → même commit pour code, manifestes et fichiers → exécution Python → résultats confirmés/indéterminés et totaux → enrichissement par IDWEB. Grain avis pour le moteur BSA ; index des objets lots distinct, actuellement local et hors 900. JSON nationaux : B41/B43 HTTPS pour GESTION/DONNEES, B45 local hors FTP ; contenus non publiés sur GitHub. Lire les capacités nationales courantes avant toute recherche dans les lots.
 3. **NAF / activité** : [guide NAF](https://github.com/AuFilDuBoamp/aufilduboamp_sibsard_reperes/blob/main/SOURCES/INSEE/NAF/GUIDE_IA_NAF.md) → version déclarée et hiérarchie correspondante → codes explicites. NAF, catégorie juridique, objet du marché et CPV restent distincts.
 4. **Établissements Thau** : [guide SIRET](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/GUIDE_IA_SIRET_ACHETEURS_THAU.md) → `urlSiretAcheteursThauGithub` → filtre sur `siret_siren`. La vue conserve actifs et cessés ; la localisation du siège ne prouve pas le lieu d’exécution.
 5. **DCE** : [guide DCE](https://github.com/AuFilDuBoamp/aufilduboamp_lab_fonds_documentaire_34_agglo_sete/blob/main/GUIDE_IA_ANALYSER_DCE.md) → `GITHUB/README_DCE.md` du dossier réellement trouvé → manifeste → dérivés → original autorisé si nécessaire. Conserver les versions et les contradictions.
