@@ -1,13 +1,14 @@
 # README IA — Thau AuFilDuBoamp — dépôt public
 
-<!-- NAVIGATION_DOCUMENTAIRE_2026_10_11 -->
-> **Navigation GPT :** [répertoire documentaire par besoin et inventaire complet](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AP_navigation_documentaire_sibsa.md). Commencer ici : [porte d'entrée](00_LIRE_IA_SIBSARD.md) → [README](README.md) → [README IA](README_IA.md), puis le guide utile et ses fichiers courants. La carte route ; la source spécialisée établit le fait. Les jalons datés ne sont pas des consignes actuelles.
+## Consignes actuelles — 14 octobre 2026
 
-## Orientation et carte des ressources — 10 octobre 2026
+Après le Pilote, toute consultation GPT se fait **en ligne sur GitHub uniquement**, sur les versions compatibles GPT courantes et historiques. Un lien BOAMP, FTP/HTTPS national, annuaire ou site acheteur n'autorise pas sa consultation. Drive sert séparément à rechercher les originaux, uniquement sur ordre explicite. Sans autorisation supplémentaire, une preuve inaccessible reste `NON ÉTABLI` ; aucun recours automatique au poste, à Drive ou au Web.
 
-**Ici : Publication publique Thau.** Radiographies et manifeste de diffusion ; revenir aux sources amont pour la preuve.
+Lire la source utile, conserver sa date, son commit et sa provenance. Un index route ; le fichier réellement lu établit le fait. Distinguer `FAIT ÉTABLI`, `OBSERVATION`, `INTERPRÉTATION`, `HYPOTHÈSE`, `NON ÉTABLI`, `ABSENT` et `NON TROUVÉ`. Ne jamais inventer valeur, relation, clé, fichier, URL ou complétude. Une absence n'est ni zéro ni suppression.
 
-Lire la [porte d’entrée locale avec la carte complète](https://github.com/AuFilDuBoamp/Thau-AuFilDuBoamp/blob/main/00_LIRE_IA_SIBSARD.md) ; la [carte maître AM](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AM_ecosysteme_sibsard_sibsa_observatoire.md) décrit les ressources disponibles et leur source de vérité. Les états chiffrés plus anciens du présent document restent des jalons datés, à contrôler dans les manifestes ou résultats courants.
+Pour un marché Thau, commencer par [le routeur Thau](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/GUIDE_IA_BSA_SIRET_THAU.md), puis [le fonds brut cumulatif](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/GUIDE_IA_FONDS_CONNAISSANCE_THAU.md). Les schémas courants sont **144 colonnes pivot / 152 liées** ; les anciens 142/143/149/150 restent historiques. La chaîne Thau comprend huit étapes avec 0250 après 0200. [Pilote du 14 octobre : 8/8 OK, sans alerte](https://github.com/AuFilDuBoamp/SIBSARD_PILOTE/blob/main/ETAT_VALIDATION_2026-10-14.md). Ce bilan technique ne certifie ni chaque fait métier ni l'affichage de chaque article.
+
+Les chiffres et résultats datés ci-dessous gardent leur date : ils ne remplacent pas les manifestes actuels. Pour la production, CONFIG et bilans locaux vérifiés déterminent l'état exécutable ; cette règle de maintenance n'autorise aucun accès local pendant une consultation GPT. Les documentations locales republiées doivent être synchronisées avant le prochain Pilote.
 
 ## Ordre de reprise
 
@@ -112,44 +113,6 @@ Une information absente ou non établie reste `NON ÉTABLI`, `ABSENT`, `NON TROU
 Ne jamais compléter une publication publique par supposition.
 
 
-## Repères et chronologie CCP — convention commune
-
-Ce dépôt reste la source spécialisée pour **publications publiques Thau et actifs de restitution**.
-
-Pour toute connaissance générale réutilisable, utiliser comme référence canonique :
-
-`AuFilDuBoamp/aufilduboamp_sibsard_reperes`
-
-Cela concerne notamment méthodes, tutoriels, vocabulaire, sources extérieures, Insee/Sirene, Légifrance, Code de la commande publique, DUME, données essentielles et Chorus Pro.
-
-Une composante spécialisée ne doit pas recopier une documentation générale déjà tenue dans Repères.
-
-Pour analyser ou classer un fait relatif à un marché :
-
-1. établir le fait dans la source spécialisée compétente ;
-2. conserver sa preuve et sa provenance là où elles appartiennent ;
-3. lire ensuite `aufilduboamp_sibsard_reperes/CAPITALISATION/CCP_CHRONOLOGIE_MARCHE/00_LIRE_IA_CCP.md` si une structuration chronologique est nécessaire ;
-4. ne jamais utiliser la grille CCP comme substitut à la preuve.
-
-Le dépôt d'audit Sète `26JA030_MK` consomme Repères selon `DEPENDANCES_REPERES.md` et ne doit pas redevenir une seconde bibliothèque générale.
-
-
-## Vous êtes ici — règle d'orientation GPT
-
-**Dépôt courant :** `AuFilDuBoamp/Thau-AuFilDuBoamp`  
-**Rôle :** publication publique Thau et actifs de restitution.
-
-Ce dépôt est l'autorité pour ce rôle, pas pour l'ensemble du SIBSARD. Pour toute autre information, partir de la carte du `00_LIRE_IA_SIBSARD.md` et rejoindre la composante compétente.
-
-Règle universelle : `00_LIRE_IA_SIBSARD.md → README.md → README_IA.md → procédure spécialisée → fichiers/contrats/résultats courants`.
-
-Pour un marché Thau, le point d'entrée est `Thau_AuFilDuBoamp_144_preparations_lab`. Son routeur principal conserve **143 colonnes / 1 ligne = 1 pivot** ; sa couche `annonces_liees_thau_courant.csv` comporte désormais **150 colonnes / 1 ligne = 1 annonce liée explicite**, avec BSA-SIRET complet et routages. Un IDWEB lié peut donc être étudié directement dans Thau ; Radar reste nécessaire pour ses JSON réels, une qualification spécialisée, ou un IDWEB absent des deux couches Thau.
-
-`urlDceGithub` d'une annonce liée ne doit jamais être confondu avec `urlDceMarchePivotGithub`. Pour une comparaison BSA stricte, comparer seulement `B_01` à `B_49`.
-
-Les routeurs et restitutions accélèrent l'accès ; la preuve reste dans la source spécialisée compétente.
-
-
 ## Articulation avec le site SPIP — 2 octobre 2026
 
 La collection publique GitHub/nbviewer est maintenue séparément des JSON affichés dans les noisettes SPIP. Le pipeline 0900 Thau publie ces JSON et leur manifeste sur FTP ; il ne met pas à jour les notebooks de ce dépôt. Les fiches **EN PRÉPARATION** restent volontairement à ce stade tant que leur rédaction détaillée n'est pas demandée.
@@ -160,8 +123,3 @@ Voir la [procédure de synchronisation Thau](https://github.com/AuFilDuBoamp/Tha
 ## Illustrations 95 — articulation du 3 octobre 2026
 
 Pour préparer ou publier des illustrations visuelles ou interactives, rejoindre [la composante Illustrations 95](https://github.com/AuFilDuBoamp/aufilduboamp_lab_illustrations_95/blob/main/00_LIRE_IA_SIBSARD.md), dépôt privé `AuFilDuBoamp/aufilduboamp_lab_illustrations_95` et dossier local de même nom. Elle prépare les agrégats en Python et les restitue dans sa version active documentée en SVG statique avec modèles SPIP, sans iframe ; le détail reste dans sa procédure spécialisée. Son pilote local est autonome : elle n’est pas inscrite dans la chaîne transversale. Les méthodes générales restent dans Repères ; les contrats et procédures de publication propres aux illustrations restent dans leur dépôt. L’accès à une documentation privée exige une authentification ou des copies fournies par l’utilisateur.
-
-
-## Routage transversal AUDIT
-
-Pour cartographier l'état local, les dépendances ou les usages techniques entre composantes, consulter `AuFilDuBoamp/AUFILDUBOAMP_SIBSARD_AUDIT`. Ce dépôt transversal sert de routeur ; il ne remplace jamais les sources privées de préparation ni les preuves spécialisées. Principe : documenter les chemins, ne pas dupliquer les vérités spécialisées.
