@@ -1,5 +1,32 @@
 # Thau AuFilDuBoamp
 
+<!-- ORIENTATION_GPT_COMMUNE_2026_10_14 -->
+## Vous êtes ici — carte de navigation commune
+
+**Vous êtes ici :** `AuFilDuBoamp/Thau-AuFilDuBoamp`. Productions destinées à la diffusion ; preuve dans les composantes amont.
+
+Reprise : [00 — rôle et règles](00_LIRE_IA_SIBSARD.md) → [README](README.md) → [README IA](README_IA.md) → guide spécialisé → schéma/manifeste → preuve ciblée. La redondance de cette carte dans les trois entrées est volontaire. En arrivant directement par un fichier de sous-dossier, revenir d’abord au 00 de la racine ; aucun index ne remplace la lecture de la preuve.
+
+| Besoin / composante | Destination | Rôle |
+|---|---|---|
+| Référentiel maître | [aufilduboamp-ia](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/00_LIRE_IA_SIBSARD.md) | Mission, gouvernance, architecture et orientation. |
+| Pilote transversal | [SIBSARD_PILOTE](https://github.com/AuFilDuBoamp/SIBSARD_PILOTE/blob/main/00_LIRE_IA_SIBSARD.md) | Orchestration des huit maîtres ; état validé et contrats de pilotage. |
+| Archives JSON BSA | [aufilduboamp_lab_archives_json_bsa_et_ftp_integral](https://github.com/AuFilDuBoamp/aufilduboamp_lab_archives_json_bsa_et_ftp_integral/blob/main/00_LIRE_IA_SIBSARD.md) | Maintenance des archives nationales locales ; ne promet pas leur publication intégrale. |
+| Référentiel eForms | [aufilduboamp_lab_eda_eforms](https://github.com/AuFilDuBoamp/aufilduboamp_lab_eda_eforms/blob/main/00_LIRE_IA_SIBSARD.md) | Structures et profils observés ; le JSON réel du bon avis établit le fait. |
+| Radar territorial | [aufilduboamp_lab_radar_34_github](https://github.com/AuFilDuBoamp/aufilduboamp_lab_radar_34_github/blob/main/00_LIRE_IA_SIBSARD.md) | BSA-SIRET territorial, avis et JSON réels désignés par les manifestes. |
+| BSA-SIRET national | [aufilduboamp_lab_bsa_siret_national](https://github.com/AuFilDuBoamp/aufilduboamp_lab_bsa_siret_national/blob/main/00_LIRE_IA_SIBSARD.md) | Recherche au grain avis publiée ; index lots local distinct, hors 900 et non publié. |
+| SPIP 148 | [aufilduboamp_lab_radar_34_spip_148](https://github.com/AuFilDuBoamp/aufilduboamp_lab_radar_34_spip_148/blob/main/00_LIRE_IA_SIBSARD.md) | Restitution par acheteur ; source de preuve dans Radar, priorité éditoriale rétrogradée. |
+| Fonds documentaire DCE | [aufilduboamp_lab_fonds_documentaire_34_agglo_sete](https://github.com/AuFilDuBoamp/aufilduboamp_lab_fonds_documentaire_34_agglo_sete/blob/main/00_LIRE_IA_SIBSARD.md) | Pièces collectées et dérivés traçables ; fonds Thau pour les historiques publiés. |
+| Repères | [aufilduboamp_sibsard_reperes](https://github.com/AuFilDuBoamp/aufilduboamp_sibsard_reperes/blob/main/00_LIRE_IA_SIBSARD.md) | Sources générales canoniques : Insee/Sirene, NAF, CPV, NUTS, CCP, DUME, DECP, Chorus. |
+| Préparation Thau 144 | [Thau_AuFilDuBoamp_144_preparations_lab](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/00_LIRE_IA_SIBSARD.md) | Entrée prioritaire marché Thau : routeurs, fonds brut cumulatif et préparation éditoriale. |
+| Audit Sète 26-70532 | [COMMUNE-DE-SETE-19-10-2026-Tonte-et-entretien-des-espaces-plantes-B-26-70532-S-213403017](https://github.com/AuFilDuBoamp/COMMUNE-DE-SETE-19-10-2026-Tonte-et-entretien-des-espaces-plantes-B-26-70532-S-213403017/blob/main/00_LIRE_IA_SIBSARD.md) | Preuves et analyses du cas ; méthodes générales dans Repères. |
+| Publication publique Thau | [Thau-AuFilDuBoamp](https://github.com/AuFilDuBoamp/Thau-AuFilDuBoamp/blob/main/00_LIRE_IA_SIBSARD.md) | Productions destinées à la diffusion ; preuve dans les composantes amont. |
+| Illustrations 95 | [aufilduboamp_lab_illustrations_95](https://github.com/AuFilDuBoamp/aufilduboamp_lab_illustrations_95/blob/main/00_LIRE_IA_SIBSARD.md) | Illustrations et publication ; pilote autonome hors registre transversal. |
+| Audit transversal | [AUFILDUBOAMP_SIBSARD_AUDIT](https://github.com/AuFilDuBoamp/AUFILDUBOAMP_SIBSARD_AUDIT/blob/main/00_LIRE_IA_SIBSARD.md) | Cartographie statique datée des fichiers et dépendances ; ne remplace pas une preuve métier. |
+
+[Parcours détaillés par besoin](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AP_navigation_documentaire_sibsa.md). GitHub uniquement après Pilote ; Drive/originaux séparément sur ordre explicite. Les cartes indiquent les responsabilités ; chaque guide spécialisé conserve ses règles. Les états datés restent historiques, les manifestes déterminent la couverture courante.
+<!-- FIN_ORIENTATION_GPT_COMMUNE_2026_10_14 -->
+
 ## Consignes actuelles — 14 octobre 2026
 
 Après le Pilote, toute consultation GPT se fait **en ligne sur GitHub uniquement**, sur les versions compatibles GPT courantes et historiques. Un lien BOAMP, FTP/HTTPS national, annuaire ou site acheteur n'autorise pas sa consultation. Drive sert séparément à rechercher les originaux, uniquement sur ordre explicite. Sans autorisation supplémentaire, une preuve inaccessible reste `NON ÉTABLI` ; aucun recours automatique au poste, à Drive ou au Web.

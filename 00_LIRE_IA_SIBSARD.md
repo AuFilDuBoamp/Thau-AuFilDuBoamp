@@ -4,7 +4,9 @@
 
 ## Lecture ciblée
 
-1. Lire cette entrée et [README IA](README_IA.md), puis [README_IA.md](README_IA.md). Le [README](README.md) décrit le projet et ses opérations ; le lire pour une reprise technique.
+**Arrivée directe par un fichier :** identifier son dépôt à partir de l’URL GitHub, puis revenir au `00_LIRE_IA_SIBSARD.md` à la racine de ce dépôt, quel que soit le sous-dossier (guide, source, index, JSON, TXT ou README généré). Le nom d’un fichier ou d’un dossier ne suffit pas à établir son rôle. Cette carte est aussi répétée dans README et README IA pour permettre une reprise depuis chacune de ces entrées.
+
+1. Lire cette entrée, [README](README.md), [README IA](README_IA.md), puis [README_IA.md](README_IA.md).
 2. Charger le schéma et le manifeste de la couche concernée, puis seulement les fichiers nécessaires à la question. Avant interprétation eForms, lire effectivement les entrées et le guide du dépôt eForms.
 3. Pour une question transversale, utiliser [le répertoire par besoin](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AP_navigation_documentaire_sibsa.md). La carte ci-dessous suffit à orienter depuis ce dépôt, sans parcourir les autres corpus.
 
