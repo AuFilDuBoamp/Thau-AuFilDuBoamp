@@ -1,5 +1,13 @@
 # Thau AuFilDuBoamp
 
+<!-- ORIENTATION_RAPPORTS_2026_10_18 -->
+## Reprise actualisée — 18 octobre 2026
+
+[Carte par besoin](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AP_navigation_documentaire_sibsa.md) · [Compte rendu matinal : PSK canonique](https://github.com/AuFilDuBoamp/SIBSARD_PILOTE/blob/main/PSK_COMPTE_RENDU_MATINAL_900.md) · [Validation du pilote du 18 octobre](https://github.com/AuFilDuBoamp/SIBSARD_PILOTE/blob/main/ETAT_VALIDATION_2026-10-18.md).
+
+Le PSK décrit le rapport complet à sept tableaux et son PDF systématique noir et blanc ; il n'est pas un skill installé ni un nouveau traitement du 900. Pour comprendre une correction de SIREN, rejoindre le [journal spécialisé](https://github.com/AuFilDuBoamp/aufilduboamp_lab_bsa_siret_national/blob/main/JOURNAL_CORRECTIONS_SIREN_ET_TOURS_DE_MAIN.md). Ces références internes nécessitent les droits adaptés. Les guides de la composante restent l'autorité de leur domaine ; les états plus anciens ci-dessous gardent leur date.
+<!-- FIN_ORIENTATION_RAPPORTS_2026_10_18 -->
+
 <!-- ORIENTATION_GPT_COMMUNE_2026_10_14 -->
 ## Vous êtes ici — carte de navigation commune
 
