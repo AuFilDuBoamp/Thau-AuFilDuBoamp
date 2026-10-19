@@ -1,5 +1,13 @@
 # README IA — Thau AuFilDuBoamp — dépôt public
 
+<!-- ACTUALITE_FICHES_THAU_2026_10_19 -->
+## Fiches acheteurs du site — 19 octobre 2026
+
+Le site Focus Sète & Thau référence 17 fiches acheteurs : articles **1831 et 1839 à 1854**, avec numéro d’article, nom et SIREN dans les titres observés. Elles présentent des tableaux d’annonces, distincts des radiographies de marchés. La capture fournie montre la liste de ces fiches et le contenu de la fiche 1854 ; elle ne constitue pas un contrôle des 17 pages ni du tri interactif.
+
+Cette restitution SPIP reste distincte de la présente collection publique GitHub/nbviewer. Le site n’est pas une source primaire de preuve métier et cette actualisation documentaire ne publie aucun corpus interne ni ne modifie les articles.
+<!-- FIN_ACTUALITE_FICHES_THAU_2026_10_19 -->
+
 <!-- ORIENTATION_RAPPORTS_2026_10_18 -->
 ## Reprise actualisée — 18 octobre 2026
 
@@ -41,7 +49,7 @@ Après le Pilote, toute consultation GPT se fait **en ligne sur GitHub uniquemen
 
 Lire la source utile, conserver sa date, son commit et sa provenance. Un index route ; le fichier réellement lu établit le fait. Distinguer `FAIT ÉTABLI`, `OBSERVATION`, `INTERPRÉTATION`, `HYPOTHÈSE`, `NON ÉTABLI`, `ABSENT` et `NON TROUVÉ`. Ne jamais inventer valeur, relation, clé, fichier, URL ou complétude. Une absence n'est ni zéro ni suppression.
 
-Pour un marché Thau, commencer par [le routeur Thau](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/GUIDE_IA_BSA_SIRET_THAU.md), puis [le fonds brut cumulatif](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/GUIDE_IA_FONDS_CONNAISSANCE_THAU.md). Les schémas courants sont **144 colonnes pivot / 152 liées** ; les anciens 142/143/149/150 restent historiques. La chaîne Thau comprend huit étapes avec 0250 après 0200. [Pilote du 14 octobre : 8/8 OK, sans alerte](https://github.com/AuFilDuBoamp/SIBSARD_PILOTE/blob/main/ETAT_VALIDATION_2026-10-14.md). Ce bilan technique ne certifie ni chaque fait métier ni l'affichage de chaque article.
+Pour un marché Thau, commencer par [le routeur Thau](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/GUIDE_IA_BSA_SIRET_THAU.md), puis [le fonds brut cumulatif](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/GUIDE_IA_FONDS_CONNAISSANCE_THAU.md). Les schémas courants sont **144 colonnes pivot / 152 liées** ; les anciens 142/143/149/150 restent historiques. La chaîne Thau du 14 octobre comportait huit étapes ; celle vérifiée localement le 19 octobre en compte dix, avec 0620 et 0630 après 0500. [Pilote du 14 octobre : 8/8 OK, sans alerte](https://github.com/AuFilDuBoamp/SIBSARD_PILOTE/blob/main/ETAT_VALIDATION_2026-10-14.md). Ce bilan technique ne certifie ni chaque fait métier ni l'affichage de chaque article.
 
 Les chiffres et résultats datés ci-dessous gardent leur date : ils ne remplacent pas les manifestes actuels. Pour la production, CONFIG et bilans locaux vérifiés déterminent l'état exécutable ; cette règle de maintenance n'autorise aucun accès local pendant une consultation GPT. Les documentations locales republiées doivent être synchronisées avant le prochain Pilote.
 

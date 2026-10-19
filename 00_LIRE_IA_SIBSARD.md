@@ -1,5 +1,13 @@
 # Entrée GPT — Publication publique Thau
 
+<!-- ACTUALITE_FICHES_THAU_2026_10_19 -->
+## Fiches acheteurs du site — 19 octobre 2026
+
+Le site Focus Sète & Thau référence 17 fiches acheteurs : articles **1831 et 1839 à 1854**, avec numéro d’article, nom et SIREN dans les titres observés. Elles présentent des tableaux d’annonces, distincts des radiographies de marchés. La capture fournie montre la liste de ces fiches et le contenu de la fiche 1854 ; elle ne constitue pas un contrôle des 17 pages ni du tri interactif.
+
+Cette restitution SPIP reste distincte de la présente collection publique GitHub/nbviewer. Le site n’est pas une source primaire de preuve métier et cette actualisation documentaire ne publie aucun corpus interne ni ne modifie les articles.
+<!-- FIN_ACTUALITE_FICHES_THAU_2026_10_19 -->
+
 <!-- ORIENTATION_RAPPORTS_2026_10_18 -->
 ## Reprise actualisée — 18 octobre 2026
 
