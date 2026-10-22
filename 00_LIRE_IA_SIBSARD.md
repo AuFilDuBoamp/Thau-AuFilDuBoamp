@@ -1,20 +1,36 @@
 # Entrée GPT — Publication publique Thau
 
-<!-- ACTUALITE_FICHES_THAU_2026_10_19 -->
-## Fiches acheteurs du site — 19 octobre 2026
+<!-- NAVIGATION_GPT_2026_10_22 -->
+> **Vous êtes ici :** `AuFilDuBoamp/Thau-AuFilDuBoamp` — `00_LIRE_IA_SIBSARD.md`. Publications publiques Thau ; ne remplace pas les preuves amont.
+> **Reprise :** [00 — carte et règles](00_LIRE_IA_SIBSARD.md) → [README](README.md) → [README IA](README_IA.md) → procédure spécialisée → schéma/manifeste → preuve. Pour un autre but, utiliser [les parcours par besoin](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AP_navigation_documentaire_sibsa.md).
+> Arrivée directe par un JSON, CSV, TXT, notebook, README généré ou source : identifier le dépôt dans l'URL et revenir au 00 de sa racine. Les index orientent ; ouvrir la preuve utile. Ne pas réécrire les données générées pour y insérer une carte. Les versions courantes et leurs limites se lisent dans les contrats et manifestes ; mémoire, plan et ancien bilan ne remplacent pas une preuve.
+<!-- FIN_NAVIGATION_GPT_2026_10_22 -->
 
-Le site Focus Sète & Thau référence 17 fiches acheteurs : articles **1831 et 1839 à 1854**, avec numéro d’article, nom et SIREN dans les titres observés. Elles présentent des tableaux d’annonces, distincts des radiographies de marchés. La capture fournie montre la liste de ces fiches et le contenu de la fiche 1854 ; elle ne constitue pas un contrôle des 17 pages ni du tri interactif.
+<!-- CARTE_COMMUNE_2026_10_22 -->
+## Carte commune — 13 dépôts, 8 composantes pilotées
 
-Cette restitution SPIP reste distincte de la présente collection publique GitHub/nbviewer. Le site n’est pas une source primaire de preuve métier et cette actualisation documentaire ne publie aucun corpus interne ni ne modifie les articles.
-<!-- FIN_ACTUALITE_FICHES_THAU_2026_10_19 -->
+| Besoin | Composante et porte d'entrée | Guide de départ |
+|---|---|---|
+| Gouvernance / organisation | [aufilduboamp-ia](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AP_navigation_documentaire_sibsa.md) |
+| Pilote / résultats / compte rendu | [SIBSARD_PILOTE](https://github.com/AuFilDuBoamp/SIBSARD_PILOTE/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/SIBSARD_PILOTE/blob/main/GUIDE_IA_PILOTAGE_EN_LIGNE.md) |
+| Archives nationales | [aufilduboamp_lab_archives_json_bsa_et_ftp_integral](https://github.com/AuFilDuBoamp/aufilduboamp_lab_archives_json_bsa_et_ftp_integral/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/aufilduboamp_lab_archives_json_bsa_et_ftp_integral/blob/main/CONTRAT_TECHNIQUE_MAINTENANCE_ARCHIVES.md) |
+| Structures eForms | [aufilduboamp_lab_eda_eforms](https://github.com/AuFilDuBoamp/aufilduboamp_lab_eda_eforms/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/aufilduboamp_lab_eda_eforms/blob/main/GUIDE_IA_EXPLORER_JSON_EFORMS.md) |
+| Avis / JSON territoriaux | [aufilduboamp_lab_radar_34_github](https://github.com/AuFilDuBoamp/aufilduboamp_lab_radar_34_github/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/aufilduboamp_lab_radar_34_github/blob/main/README_IA_ANALYSE_MARCHES_RADAR34.md) |
+| Recherche nationale / annonces anciennes | [aufilduboamp_lab_bsa_siret_national](https://github.com/AuFilDuBoamp/aufilduboamp_lab_bsa_siret_national/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/aufilduboamp_lab_bsa_siret_national/blob/main/RECHERCHE/GUIDE_MOTEUR_RECHERCHE.md) |
+| Acheteurs 34 / SPIP 148 | [aufilduboamp_lab_radar_34_spip_148](https://github.com/AuFilDuBoamp/aufilduboamp_lab_radar_34_spip_148/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/aufilduboamp_lab_radar_34_spip_148/blob/main/REPRISE_IA_SPIP_148_ACHETEURS_34.md) |
+| Pièces DCE | [aufilduboamp_lab_fonds_documentaire_34_agglo_sete](https://github.com/AuFilDuBoamp/aufilduboamp_lab_fonds_documentaire_34_agglo_sete/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/aufilduboamp_lab_fonds_documentaire_34_agglo_sete/blob/main/GUIDE_IA_ANALYSER_DCE.md) |
+| Références et méthodes générales | [aufilduboamp_sibsard_reperes](https://github.com/AuFilDuBoamp/aufilduboamp_sibsard_reperes/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/aufilduboamp_sibsard_reperes/blob/main/GUIDE_IA_SOURCES_REPERES.md) |
+| Marché / acheteur / enquête Thau | [Thau_AuFilDuBoamp_144_preparations_lab](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/README_IA.md) |
+| Publication publique Thau | [Thau-AuFilDuBoamp](https://github.com/AuFilDuBoamp/Thau-AuFilDuBoamp/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/Thau-AuFilDuBoamp/blob/main/README_IA.md) |
+| Illustrations | [aufilduboamp_lab_illustrations_95](https://github.com/AuFilDuBoamp/aufilduboamp_lab_illustrations_95/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/aufilduboamp_lab_illustrations_95/blob/main/PROCEDURE_ILLUSTRATIONS_SPIP.md) |
+| Usage local d'un fichier / dépendances | [AUFILDUBOAMP_SIBSARD_AUDIT](https://github.com/AuFilDuBoamp/AUFILDUBOAMP_SIBSARD_AUDIT/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/AUFILDUBOAMP_SIBSARD_AUDIT/blob/main/README_IA.md) |
 
-<!-- ORIENTATION_RAPPORTS_2026_10_18 -->
-## Reprise actualisée — 18 octobre 2026
+Les huit composantes pilotées restent Archives → eForms → Radar → national → DCE → Thau 144 → Repères → SPIP 148. Le maître, l'AUDIT transversal et les sorties/publications ont d'autres rôles. Cartographie `aufilduboamp_carto_ia` : locale, sans dépôt propre ; Illustrations 95 : pilote autonome.
 
-[Carte par besoin](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AP_navigation_documentaire_sibsa.md) · [Compte rendu matinal : PSK canonique](https://github.com/AuFilDuBoamp/SIBSARD_PILOTE/blob/main/PSK_COMPTE_RENDU_MATINAL_900.md) · [Validation du pilote du 18 octobre](https://github.com/AuFilDuBoamp/SIBSARD_PILOTE/blob/main/ETAT_VALIDATION_2026-10-18.md).
+**Travaux du 22 octobre :** les fiches, leurs correspondances SIREN, établissements et bandeaux sont décrits dans le [guide canonique du 144](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/GUIDE_IA_FICHES_ACHETEURS_SPIP.md) ; l'exécution réelle du LAB est documentée [ici](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/CONTROLE_VALIDATION_THAU_144_2026-10-22.md). Les [enquêtes Thau](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/ENQUETES/README.md) se poursuivent dans le 144, sans dépôt de marché autonome et sans import redondant. Pour les annonces anciennes hors pivots, suivre le moteur national ; pour les méthodes générales, Repères.
 
-Le PSK décrit le rapport complet à sept tableaux et son PDF systématique noir et blanc ; il n'est pas un skill installé ni un nouveau traitement du 900. Pour comprendre une correction de SIREN, rejoindre le [journal spécialisé](https://github.com/AuFilDuBoamp/aufilduboamp_lab_bsa_siret_national/blob/main/JOURNAL_CORRECTIONS_SIREN_ET_TOURS_DE_MAIN.md). Ces références internes nécessitent les droits adaptés. Les guides de la composante restent l'autorité de leur domaine ; les états plus anciens ci-dessous gardent leur date.
-<!-- FIN_ORIENTATION_RAPPORTS_2026_10_18 -->
+GitHub spécialisé pour la recherche ; fichiers locaux courants vérifiés pour la maintenance. Demander ces derniers avec leur chemin complet avant modification s'ils n'ont pas déjà été fournis. Exécution, commit, publication FTP et rendu HTTP restent distincts. Aucun accès extérieur, Drive ou FTP direct n'est autorisé par la seule présence d'un lien.
+<!-- FIN_CARTE_COMMUNE_2026_10_22 -->
 
 **Vous êtes ici :** `AuFilDuBoamp/Thau-AuFilDuBoamp`. Productions destinées à la diffusion ; preuve dans les composantes amont.
 
@@ -34,26 +50,8 @@ Lire la source utile, conserver sa date, son commit et sa provenance. Un index r
 
 Repères conserve les connaissances générales. Chaque composante conserve ses données, contrats et preuves spécialisées. La carte se répète volontairement ; les vérités de fond ne se dupliquent pas. SPIP, nbviewer et les restitutions publiques ne remplacent jamais les sources amont. Ne pas exposer secrets, pipeline propriétaire BSA, règles sensibles ou corpus national dans un espace public.
 
-## Carte commune des ressources documentées
 
-| Besoin / composante | Destination | Rôle |
-|---|---|---|
-| Référentiel maître | [aufilduboamp-ia](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/00_LIRE_IA_SIBSARD.md) | Mission, gouvernance, architecture et orientation. |
-| Pilote transversal | [SIBSARD_PILOTE](https://github.com/AuFilDuBoamp/SIBSARD_PILOTE/blob/main/00_LIRE_IA_SIBSARD.md) | Orchestration des huit maîtres ; état validé et contrats de pilotage. |
-| Archives JSON BSA | [aufilduboamp_lab_archives_json_bsa_et_ftp_integral](https://github.com/AuFilDuBoamp/aufilduboamp_lab_archives_json_bsa_et_ftp_integral/blob/main/00_LIRE_IA_SIBSARD.md) | Maintenance des archives nationales locales ; ne promet pas leur publication intégrale. |
-| Référentiel eForms | [aufilduboamp_lab_eda_eforms](https://github.com/AuFilDuBoamp/aufilduboamp_lab_eda_eforms/blob/main/00_LIRE_IA_SIBSARD.md) | Structures et profils observés ; le JSON réel du bon avis établit le fait. |
-| Radar territorial | [aufilduboamp_lab_radar_34_github](https://github.com/AuFilDuBoamp/aufilduboamp_lab_radar_34_github/blob/main/00_LIRE_IA_SIBSARD.md) | BSA-SIRET territorial, avis et JSON réels désignés par les manifestes. |
-| BSA-SIRET national | [aufilduboamp_lab_bsa_siret_national](https://github.com/AuFilDuBoamp/aufilduboamp_lab_bsa_siret_national/blob/main/00_LIRE_IA_SIBSARD.md) | Recherche au grain avis publiée ; index lots local distinct, hors 900 et non publié. |
-| SPIP 148 | [aufilduboamp_lab_radar_34_spip_148](https://github.com/AuFilDuBoamp/aufilduboamp_lab_radar_34_spip_148/blob/main/00_LIRE_IA_SIBSARD.md) | Restitution par acheteur ; source de preuve dans Radar, priorité éditoriale rétrogradée. |
-| Fonds documentaire DCE | [aufilduboamp_lab_fonds_documentaire_34_agglo_sete](https://github.com/AuFilDuBoamp/aufilduboamp_lab_fonds_documentaire_34_agglo_sete/blob/main/00_LIRE_IA_SIBSARD.md) | Pièces collectées et dérivés traçables ; fonds Thau pour les historiques publiés. |
-| Repères | [aufilduboamp_sibsard_reperes](https://github.com/AuFilDuBoamp/aufilduboamp_sibsard_reperes/blob/main/00_LIRE_IA_SIBSARD.md) | Sources générales canoniques : Insee/Sirene, NAF, CPV, NUTS, CCP, DUME, DECP, Chorus. |
-| Préparation Thau 144 | [Thau_AuFilDuBoamp_144_preparations_lab](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/00_LIRE_IA_SIBSARD.md) | Entrée prioritaire marché Thau : routeurs, fonds brut cumulatif et préparation éditoriale. |
-| Audit Sète 26-70532 | [Thau_AuFilDuBoamp_144_preparations_lab/ENQUETES/26-70532](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/ENQUETES/26-70532/README.md) | Preuves et analyses du cas ; méthodes générales dans Repères. |
-| Publication publique Thau | [Thau-AuFilDuBoamp](https://github.com/AuFilDuBoamp/Thau-AuFilDuBoamp/blob/main/00_LIRE_IA_SIBSARD.md) | Productions destinées à la diffusion ; preuve dans les composantes amont. |
-| Illustrations 95 | [aufilduboamp_lab_illustrations_95](https://github.com/AuFilDuBoamp/aufilduboamp_lab_illustrations_95/blob/main/00_LIRE_IA_SIBSARD.md) | Illustrations et publication ; pilote autonome hors registre transversal. |
-| Audit transversal | [AUFILDUBOAMP_SIBSARD_AUDIT](https://github.com/AuFilDuBoamp/AUFILDUBOAMP_SIBSARD_AUDIT/blob/main/00_LIRE_IA_SIBSARD.md) | Cartographie statique datée des fichiers et dépendances ; ne remplace pas une preuve métier. |
-
-Huit composantes seulement sont pilotées : Archives → eForms → Radar → national → DCE → Thau 144 → Repères → SPIP 148. Le référentiel maître et l'audit transversal complètent les douze dépôts coordonnés. Illustrations 95 conserve son pilote autonome. Le dossier cartographique local reste local, sans dépôt ajouté par supposition. L'ancien Observatoire et le chantier 110 ne sont plus des destinations de travail.
+Huit composantes seulement sont pilotées : Archives → eForms → Radar → national → DCE → Thau 144 → Repères → SPIP 148. Le référentiel maître et l'audit transversal complètent les dépôts coordonnés. Illustrations 95 conserve son pilote autonome. Le dossier cartographique local reste local, sans dépôt ajouté par supposition. L'ancien Observatoire et le chantier 110 ne sont plus des destinations de travail.
 
 ## État et suites
 
