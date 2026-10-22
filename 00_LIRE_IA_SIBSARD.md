@@ -34,7 +34,7 @@ Lire la source utile, conserver sa date, son commit et sa provenance. Un index r
 
 Repères conserve les connaissances générales. Chaque composante conserve ses données, contrats et preuves spécialisées. La carte se répète volontairement ; les vérités de fond ne se dupliquent pas. SPIP, nbviewer et les restitutions publiques ne remplacent jamais les sources amont. Ne pas exposer secrets, pipeline propriétaire BSA, règles sensibles ou corpus national dans un espace public.
 
-## Carte commune des 14 dépôts documentés
+## Carte commune des ressources documentées
 
 | Besoin / composante | Destination | Rôle |
 |---|---|---|
@@ -48,7 +48,7 @@ Repères conserve les connaissances générales. Chaque composante conserve ses 
 | Fonds documentaire DCE | [aufilduboamp_lab_fonds_documentaire_34_agglo_sete](https://github.com/AuFilDuBoamp/aufilduboamp_lab_fonds_documentaire_34_agglo_sete/blob/main/00_LIRE_IA_SIBSARD.md) | Pièces collectées et dérivés traçables ; fonds Thau pour les historiques publiés. |
 | Repères | [aufilduboamp_sibsard_reperes](https://github.com/AuFilDuBoamp/aufilduboamp_sibsard_reperes/blob/main/00_LIRE_IA_SIBSARD.md) | Sources générales canoniques : Insee/Sirene, NAF, CPV, NUTS, CCP, DUME, DECP, Chorus. |
 | Préparation Thau 144 | [Thau_AuFilDuBoamp_144_preparations_lab](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/00_LIRE_IA_SIBSARD.md) | Entrée prioritaire marché Thau : routeurs, fonds brut cumulatif et préparation éditoriale. |
-| Audit Sète 26-70532 | [COMMUNE-DE-SETE-19-10-2026-Tonte-et-entretien-des-espaces-plantes-B-26-70532-S-213403017](https://github.com/AuFilDuBoamp/COMMUNE-DE-SETE-19-10-2026-Tonte-et-entretien-des-espaces-plantes-B-26-70532-S-213403017/blob/main/00_LIRE_IA_SIBSARD.md) | Preuves et analyses du cas ; méthodes générales dans Repères. |
+| Audit Sète 26-70532 | [Thau_AuFilDuBoamp_144_preparations_lab/ENQUETES/26-70532](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/ENQUETES/26-70532/README.md) | Preuves et analyses du cas ; méthodes générales dans Repères. |
 | Publication publique Thau | [Thau-AuFilDuBoamp](https://github.com/AuFilDuBoamp/Thau-AuFilDuBoamp/blob/main/00_LIRE_IA_SIBSARD.md) | Productions destinées à la diffusion ; preuve dans les composantes amont. |
 | Illustrations 95 | [aufilduboamp_lab_illustrations_95](https://github.com/AuFilDuBoamp/aufilduboamp_lab_illustrations_95/blob/main/00_LIRE_IA_SIBSARD.md) | Illustrations et publication ; pilote autonome hors registre transversal. |
 | Audit transversal | [AUFILDUBOAMP_SIBSARD_AUDIT](https://github.com/AuFilDuBoamp/AUFILDUBOAMP_SIBSARD_AUDIT/blob/main/00_LIRE_IA_SIBSARD.md) | Cartographie statique datée des fichiers et dépendances ; ne remplace pas une preuve métier. |
