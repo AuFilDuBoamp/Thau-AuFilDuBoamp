@@ -1,5 +1,9 @@
 # Entrée GPT — Publication publique Thau
 
+<!-- ACTUALISATION_2026_11_01 -->
+> **Orientation au 1er novembre 2026 :** [parcours actuels SIBSA/SIBSARD](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AP_navigation_documentaire_sibsa.md) et [contrôle documentaire](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AX_controle_documentaire_2026-11-01.md). Pour la veille documentaire tous azimuts, rejoindre [le navigateur autonome du LAB](https://github.com/AuFilDuBoamp/aufilduboamp_lab_navigateur_firefox/blob/main/00_LIRE_IA_SIBSARD.md), hors 900 et indépendant de Nextcloud. Les anciens chiffres et validations ci-dessous restent datés ; ouvrir les manifestes courants avant de conclure. Les règles notebooks courantes sont la [version I](https://github.com/AuFilDuBoamp/aufilduboamp_sibsard_reperes/blob/main/REGLES_CONSTITUTION_NOTEBOOKS_AFDB_LAB_I.md).
+<!-- FIN_ACTUALISATION_2026_11_01 -->
+
 <!-- NAVIGATION_GPT_2026_10_22 -->
 > **Vous êtes ici :** `AuFilDuBoamp/Thau-AuFilDuBoamp` — `00_LIRE_IA_SIBSARD.md`. Publications publiques Thau ; ne remplace pas les preuves amont.
 > **Reprise :** [00 — carte et règles](00_LIRE_IA_SIBSARD.md) → [README](README.md) → [README IA](README_IA.md) → procédure spécialisée → schéma/manifeste → preuve. Pour un autre but, utiliser [les parcours par besoin](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AP_navigation_documentaire_sibsa.md).
@@ -7,7 +11,7 @@
 <!-- FIN_NAVIGATION_GPT_2026_10_22 -->
 
 <!-- CARTE_COMMUNE_2026_10_22 -->
-## Carte commune — 13 dépôts, 8 composantes pilotées
+## Carte commune — 14 dépôts accessibles ; 8 composantes pilotées au dernier bilan lu
 
 | Besoin | Composante et porte d'entrée | Guide de départ |
 |---|---|---|
@@ -31,6 +35,8 @@ Les huit composantes pilotées restent Archives → eForms → Radar → nationa
 
 GitHub spécialisé pour la recherche ; fichiers locaux courants vérifiés pour la maintenance. Demander ces derniers avec leur chemin complet avant modification s'ils n'ont pas déjà été fournis. Exécution, commit, publication FTP et rendu HTTP restent distincts. Aucun accès extérieur, Drive ou FTP direct n'est autorisé par la seule présence d'un lien.
 **Éviter les boucles de reprise :** si les entrées et règles utiles de cette composante ont déjà été lues dans la session et n'ont pas changé, passer directement au guide puis à la preuve ciblée. Ne pas recommencer 00 → README → README IA à chaque renvoi. Une rubrique ancienne qualifiée de « courante » à sa date ne prime pas les contrats et manifestes effectivement courants.
+| Veille documentaire / navigateur Firefox | [aufilduboamp_lab_navigateur_firefox](https://github.com/AuFilDuBoamp/aufilduboamp_lab_navigateur_firefox/blob/main/00_LIRE_IA_SIBSARD.md) | [État, tests et reprise](https://github.com/AuFilDuBoamp/aufilduboamp_lab_navigateur_firefox/blob/main/docs/BILAN_TESTS_2026-11-01.md) ; [circuit PDF](https://github.com/AuFilDuBoamp/aufilduboamp_lab_navigateur_firefox/blob/main/docs/CIRCUIT_DOCUMENTAIRE_PDF.md) |
+
 <!-- FIN_CARTE_COMMUNE_2026_10_22 -->
 
 **Vous êtes ici :** `AuFilDuBoamp/Thau-AuFilDuBoamp`. Productions destinées à la diffusion ; preuve dans les composantes amont.
