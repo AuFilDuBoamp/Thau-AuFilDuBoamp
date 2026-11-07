@@ -1,7 +1,11 @@
+<!-- REPRISE_TRANSVERSALE_2026_11_07 -->
+> **Vous êtes ici :** `Thau-AuFilDuBoamp` — sortie publique Thau. [Entrée du dépôt](00_LIRE_IA_SIBSARD.md) → README → README IA → procédure/contrat spécialisé → preuve. [Navigation par besoin](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AP_navigation_documentaire_sibsa.md) · [Contrôle transversal et inventaire du 7 novembre](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AZ_controle_documentaire_2026-11-07.md). Les jalons, chiffres et propositions datés restent à leur date ; un index ou un commit ne prouve pas une exécution, un transfert ou un état métier actuel. Depuis une donnée ou un fichier généré : identifier dépôt/branche dans l'URL et revenir à son 00, sans réécrire la donnée pour ajouter cette carte.
+<!-- FIN_REPRISE_TRANSVERSALE_2026_11_07 -->
+
 # Entrée GPT — Publication publique Thau
 
 <!-- ACTUALISATION_2026_11_01 -->
-> **Orientation au 1er novembre 2026 :** [parcours actuels SIBSA/SIBSARD](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AP_navigation_documentaire_sibsa.md) et [contrôle documentaire](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AX_controle_documentaire_2026-11-01.md). Pour la veille documentaire tous azimuts, rejoindre [le navigateur autonome du LAB](https://github.com/AuFilDuBoamp/aufilduboamp_lab_navigateur_firefox/blob/main/00_LIRE_IA_SIBSARD.md), hors 900 et indépendant de Nextcloud. Les anciens chiffres et validations ci-dessous restent datés ; ouvrir les manifestes courants avant de conclure. Les règles notebooks courantes sont la [version I](https://github.com/AuFilDuBoamp/aufilduboamp_sibsard_reperes/blob/main/REGLES_CONSTITUTION_NOTEBOOKS_AFDB_LAB_I.md).
+> **Orientation au 1er novembre 2026 :** [parcours actuels SIBSA/SIBSARD](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AP_navigation_documentaire_sibsa.md) et [contrôle documentaire](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AX_controle_documentaire_2026-11-01.md). Pour la veille documentaire tous azimuts, rejoindre [le navigateur autonome du LAB](https://github.com/AuFilDuBoamp/aufilduboamp_lab_navigateur_firefox/blob/dev/dematdoc-0.4.3/00_LIRE_IA_SIBSARD.md), hors 900 et indépendant de Nextcloud. Les anciens chiffres et validations ci-dessous restent datés ; ouvrir les manifestes courants avant de conclure. Les règles notebooks courantes sont la [version I](https://github.com/AuFilDuBoamp/aufilduboamp_sibsard_reperes/blob/main/REGLES_CONSTITUTION_NOTEBOOKS_AFDB_LAB_I.md).
 <!-- FIN_ACTUALISATION_2026_11_01 -->
 
 <!-- NAVIGATION_GPT_2026_10_22 -->
@@ -31,11 +35,11 @@
 
 Les huit composantes pilotées restent Archives → eForms → Radar → national → DCE → Thau 144 → Repères → SPIP 148. Le maître, l'AUDIT transversal et les sorties/publications ont d'autres rôles. Cartographie `aufilduboamp_carto_ia` : locale, sans dépôt propre ; Illustrations 95 : pilote autonome.
 
-**Travaux du 22 octobre :** les fiches, leurs correspondances SIREN, établissements et bandeaux sont décrits dans le [guide canonique du 144](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/GUIDE_IA_FICHES_ACHETEURS_SPIP.md) ; l'exécution réelle du LAB est documentée [ici](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/CONTROLE_VALIDATION_THAU_144_2026-10-22.md). Les [enquêtes Thau](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/ENQUETES/README.md) se poursuivent dans le 144, sans dépôt de marché autonome et sans import redondant. Pour les annonces anciennes hors pivots, suivre le moteur national ; pour les méthodes générales, Repères.
+**Travaux du 22 octobre :** les fiches, leurs correspondances SIREN, établissements et bandeaux sont décrits dans le [guide canonique du 144](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/DOCS/GUIDES/GUIDE_IA_FICHES_ACHETEURS_SPIP.md) ; l'exécution réelle du LAB est documentée [ici](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/CONTROLE_VALIDATION_THAU_144_2026-10-22.md). Les [enquêtes Thau](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/ENQUETES/README.md) se poursuivent dans le 144, sans dépôt de marché autonome et sans import redondant. Pour les annonces anciennes hors pivots, suivre le moteur national ; pour les méthodes générales, Repères.
 
 GitHub spécialisé pour la recherche ; fichiers locaux courants vérifiés pour la maintenance. Demander ces derniers avec leur chemin complet avant modification s'ils n'ont pas déjà été fournis. Exécution, commit, publication FTP et rendu HTTP restent distincts. Aucun accès extérieur, Drive ou FTP direct n'est autorisé par la seule présence d'un lien.
 **Éviter les boucles de reprise :** si les entrées et règles utiles de cette composante ont déjà été lues dans la session et n'ont pas changé, passer directement au guide puis à la preuve ciblée. Ne pas recommencer 00 → README → README IA à chaque renvoi. Une rubrique ancienne qualifiée de « courante » à sa date ne prime pas les contrats et manifestes effectivement courants.
-| Veille documentaire / navigateur Firefox | [aufilduboamp_lab_navigateur_firefox](https://github.com/AuFilDuBoamp/aufilduboamp_lab_navigateur_firefox/blob/main/00_LIRE_IA_SIBSARD.md) | [État, tests et reprise](https://github.com/AuFilDuBoamp/aufilduboamp_lab_navigateur_firefox/blob/main/docs/BILAN_TESTS_2026-11-01.md) ; [circuit PDF](https://github.com/AuFilDuBoamp/aufilduboamp_lab_navigateur_firefox/blob/main/docs/CIRCUIT_DOCUMENTAIRE_PDF.md) |
+| Veille documentaire / navigateur Firefox | [aufilduboamp_lab_navigateur_firefox](https://github.com/AuFilDuBoamp/aufilduboamp_lab_navigateur_firefox/blob/dev/dematdoc-0.4.3/00_LIRE_IA_SIBSARD.md) | [État, tests et reprise](https://github.com/AuFilDuBoamp/aufilduboamp_lab_navigateur_firefox/blob/dev/dematdoc-0.4.3/docs/BILAN_TESTS_2026-11-01.md) ; [circuit PDF](https://github.com/AuFilDuBoamp/aufilduboamp_lab_navigateur_firefox/blob/dev/dematdoc-0.4.3/docs/CIRCUIT_DOCUMENTAIRE_PDF.md) |
 
 <!-- FIN_CARTE_COMMUNE_2026_10_22 -->
 
@@ -64,8 +68,9 @@ Huit composantes seulement sont pilotées : Archives → eForms → Radar → na
 
 [État validé du 14 octobre 2026](https://github.com/AuFilDuBoamp/SIBSARD_PILOTE/blob/main/ETAT_VALIDATION_2026-10-14.md) : huit maîtres OK sans alerte ; Thau avec 0250 exécuté. Lire les manifestes pour les compteurs actuels. Les jalons anciens sont historiques. Les capacités proposées ou locales ne deviennent pas des services GPT publiés.
 
-[Cadre éditorial actuel](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/CADRE_EDITORIAL_FOCUS_THAU.md) : quotidiennes et départements nationaux conservés ; Focus Sète & Thau en rubrique 144 ; noisettes existantes conservées ; 110 abandonnée ; 148 reste active techniquement.
+[Cadre éditorial actuel](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/DOCS/CONTRATS/CADRE_EDITORIAL_FOCUS_THAU.md) : quotidiennes et départements nationaux conservés ; Focus Sète & Thau en rubrique 144 ; noisettes existantes conservées ; 110 abandonnée ; 148 reste active techniquement.
 
 ## Documents du dépôt
 
 Les contrats et preuves utiles sont désignés dans le README IA.
+
