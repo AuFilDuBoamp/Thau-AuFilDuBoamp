@@ -15,10 +15,15 @@
 <!-- FIN_NAVIGATION_GPT_2026_10_22 -->
 
 <!-- CARTE_COMMUNE_2026_10_22 -->
-## Carte commune — 14 dépôts accessibles ; 8 composantes pilotées au dernier bilan lu
+## Carte commune — orientation documentaire
+
+Périmètre et parcours courants : [navigation du maître](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AP_navigation_documentaire_sibsa.md). Cette carte oriente ; les contrats spécialisés font autorité. Le périmètre documentaire ne détermine pas la chaîne du 900.
+
+Les destinations privées de cette carte exigent des droits distincts. Pour une lecture publique, utiliser les fichiers du présent dépôt ; une preuve amont inaccessible reste non vérifiable depuis cet accès. Le propriétaire peut fournir les pièces autorisées, sans qu’aucune publication de source privée soit implicite.
 
 | Besoin | Composante et porte d'entrée | Guide de départ |
 |---|---|---|
+| Reconstruction pipeline V2 | [Entrée du chantier autonome](https://github.com/AuFilDuBoamp/aufilduboamp_lab_pipeline_bsa_siret_v2/blob/main/00_LIRE_IA_SIBSARD.md) | [Documentation spécialisée](https://github.com/AuFilDuBoamp/aufilduboamp_lab_pipeline_bsa_siret_v2/blob/main/docs/INDEX.md) |
 | Gouvernance / organisation | [aufilduboamp-ia](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AP_navigation_documentaire_sibsa.md) |
 | Pilote / résultats / compte rendu | [SIBSARD_PILOTE](https://github.com/AuFilDuBoamp/SIBSARD_PILOTE/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/SIBSARD_PILOTE/blob/main/GUIDE_IA_PILOTAGE_EN_LIGNE.md) |
 | Archives nationales | [aufilduboamp_lab_archives_json_bsa_et_ftp_integral](https://github.com/AuFilDuBoamp/aufilduboamp_lab_archives_json_bsa_et_ftp_integral/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/aufilduboamp_lab_archives_json_bsa_et_ftp_integral/blob/main/CONTRAT_TECHNIQUE_MAINTENANCE_ARCHIVES.md) |

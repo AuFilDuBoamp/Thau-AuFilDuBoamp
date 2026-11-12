@@ -15,10 +15,15 @@
 <!-- FIN_NAVIGATION_GPT_2026_10_22 -->
 
 <!-- CARTE_COMMUNE_2026_10_22 -->
-## Carte commune — 14 dépôts accessibles ; 8 composantes pilotées au dernier bilan lu
+## Carte commune — orientation documentaire
+
+Périmètre et parcours courants : [navigation du maître](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AP_navigation_documentaire_sibsa.md). Cette carte oriente ; les contrats spécialisés font autorité. Le périmètre documentaire ne détermine pas la chaîne du 900.
+
+Les destinations privées de cette carte exigent des droits distincts. Pour une lecture publique, utiliser les fichiers du présent dépôt ; une preuve amont inaccessible reste non vérifiable depuis cet accès. Le propriétaire peut fournir les pièces autorisées, sans qu’aucune publication de source privée soit implicite.
 
 | Besoin | Composante et porte d'entrée | Guide de départ |
 |---|---|---|
+| Reconstruction pipeline V2 | [Entrée du chantier autonome](https://github.com/AuFilDuBoamp/aufilduboamp_lab_pipeline_bsa_siret_v2/blob/main/00_LIRE_IA_SIBSARD.md) | [Documentation spécialisée](https://github.com/AuFilDuBoamp/aufilduboamp_lab_pipeline_bsa_siret_v2/blob/main/docs/INDEX.md) |
 | Gouvernance / organisation | [aufilduboamp-ia](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AP_navigation_documentaire_sibsa.md) |
 | Pilote / résultats / compte rendu | [SIBSARD_PILOTE](https://github.com/AuFilDuBoamp/SIBSARD_PILOTE/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/SIBSARD_PILOTE/blob/main/GUIDE_IA_PILOTAGE_EN_LIGNE.md) |
 | Archives nationales | [aufilduboamp_lab_archives_json_bsa_et_ftp_integral](https://github.com/AuFilDuBoamp/aufilduboamp_lab_archives_json_bsa_et_ftp_integral/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/aufilduboamp_lab_archives_json_bsa_et_ftp_integral/blob/main/CONTRAT_TECHNIQUE_MAINTENANCE_ARCHIVES.md) |
@@ -78,7 +83,7 @@ La redondance ci-dessous est volontaire : une IA entrant par ce dépôt public d
 - préparation privée de Thau 144 : `AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab` ;
 - sources extérieures, méthodes, tutoriels et capitalisation : `AuFilDuBoamp/aufilduboamp_sibsard_reperes` ;
 - restitution par acheteur / rubrique 148 : `AuFilDuBoamp/aufilduboamp_lab_radar_34_spip_148` ;
-- audit spécialisé du marché `26JA030_MK` : dépôt d’audit dédié ;
+- enquête du marché `26JA030_MK` / `26-70532` : [dossier courant du 144](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/ENQUETES/26-70532/README.md), ancien audit conservé sous `HISTORIQUE_AUDIT/` ;
 - présent dépôt : publications publiques Thau.
 
 Le dossier local de produits Web destinés à publication est `Thau_AuFilDuBoamp_144_publications_web`.
