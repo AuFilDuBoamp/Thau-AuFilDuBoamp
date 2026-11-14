@@ -1,52 +1,10 @@
-<!-- REPRISE_TRANSVERSALE_2026_11_07 -->
-> **Vous êtes ici :** `Thau-AuFilDuBoamp` — sortie publique Thau. [Entrée du dépôt](00_LIRE_IA_SIBSARD.md) → README → README IA → procédure/contrat spécialisé → preuve. [Navigation par besoin](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AP_navigation_documentaire_sibsa.md) · [Contrôle transversal et inventaire du 7 novembre](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AZ_controle_documentaire_2026-11-07.md). Les jalons, chiffres et propositions datés restent à leur date ; un index ou un commit ne prouve pas une exécution, un transfert ou un état métier actuel. Depuis une donnée ou un fichier généré : identifier dépôt/branche dans l'URL et revenir à son 00, sans réécrire la donnée pour ajouter cette carte.
-<!-- FIN_REPRISE_TRANSVERSALE_2026_11_07 -->
-
 # Entrée GPT — Publication publique Thau
 
-<!-- ACTUALISATION_2026_11_01 -->
-> **Orientation au 1er novembre 2026 :** [parcours actuels SIBSA/SIBSARD](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AP_navigation_documentaire_sibsa.md) et [contrôle documentaire](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AX_controle_documentaire_2026-11-01.md). Pour la veille documentaire tous azimuts, rejoindre [le navigateur autonome du LAB](https://github.com/AuFilDuBoamp/aufilduboamp_lab_navigateur_firefox/blob/dev/dematdoc-0.4.3/00_LIRE_IA_SIBSARD.md), hors 900 et indépendant de Nextcloud. Les anciens chiffres et validations ci-dessous restent datés ; ouvrir les manifestes courants avant de conclure. Les règles notebooks courantes sont la [version I](https://github.com/AuFilDuBoamp/aufilduboamp_sibsard_reperes/blob/main/REGLES_CONSTITUTION_NOTEBOOKS_AFDB_LAB_I.md).
-<!-- FIN_ACTUALISATION_2026_11_01 -->
+> **Objet :** Situer publications publiques Thau et choisir le parcours utile.
+> **Autorité :** Orientation de départ ; les contrats spécialisés et preuves datées établissent les faits. Les références amont privées exigent des droits distincts ; leur inaccessibilité ne prouve pas l’absence de source.
+> **Suite de lecture :** [Parcours du dépôt](00_ACCUEIL.ipynb) → guide/contrat utile → preuve ciblée.
 
-<!-- NAVIGATION_GPT_2026_10_22 -->
-> **Vous êtes ici :** `AuFilDuBoamp/Thau-AuFilDuBoamp` — `00_LIRE_IA_SIBSARD.md`. Publications publiques Thau ; ne remplace pas les preuves amont.
-> **Reprise :** [00 — carte et règles](00_LIRE_IA_SIBSARD.md) → [README](README.md) → [README IA](README_IA.md) → procédure spécialisée → schéma/manifeste → preuve. Pour un autre but, utiliser [les parcours par besoin](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AP_navigation_documentaire_sibsa.md).
-> Arrivée directe par un JSON, CSV, TXT, notebook, README généré ou source : identifier le dépôt dans l'URL et revenir au 00 de sa racine. Les index orientent ; ouvrir la preuve utile. Ne pas réécrire les données générées pour y insérer une carte. Les versions courantes et leurs limites se lisent dans les contrats et manifestes ; mémoire, plan et ancien bilan ne remplacent pas une preuve.
-<!-- FIN_NAVIGATION_GPT_2026_10_22 -->
-
-<!-- CARTE_COMMUNE_2026_10_22 -->
-## Carte commune — orientation documentaire
-
-Périmètre et parcours courants : [navigation du maître](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AP_navigation_documentaire_sibsa.md). Cette carte oriente ; les contrats spécialisés font autorité. Le périmètre documentaire ne détermine pas la chaîne du 900.
-
-Les destinations privées de cette carte exigent des droits distincts. Pour une lecture publique, utiliser les fichiers du présent dépôt ; une preuve amont inaccessible reste non vérifiable depuis cet accès. Le propriétaire peut fournir les pièces autorisées, sans qu’aucune publication de source privée soit implicite.
-
-| Besoin | Composante et porte d'entrée | Guide de départ |
-|---|---|---|
-| Reconstruction pipeline V2 | [Entrée du chantier autonome](https://github.com/AuFilDuBoamp/aufilduboamp_lab_pipeline_bsa_siret_v2/blob/main/00_LIRE_IA_SIBSARD.md) | [Documentation spécialisée](https://github.com/AuFilDuBoamp/aufilduboamp_lab_pipeline_bsa_siret_v2/blob/main/docs/INDEX.md) |
-| Gouvernance / organisation | [aufilduboamp-ia](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AP_navigation_documentaire_sibsa.md) |
-| Pilote / résultats / compte rendu | [SIBSARD_PILOTE](https://github.com/AuFilDuBoamp/SIBSARD_PILOTE/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/SIBSARD_PILOTE/blob/main/GUIDE_IA_PILOTAGE_EN_LIGNE.md) |
-| Archives nationales | [aufilduboamp_lab_archives_json_bsa_et_ftp_integral](https://github.com/AuFilDuBoamp/aufilduboamp_lab_archives_json_bsa_et_ftp_integral/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/aufilduboamp_lab_archives_json_bsa_et_ftp_integral/blob/main/CONTRAT_TECHNIQUE_MAINTENANCE_ARCHIVES.md) |
-| Structures eForms | [aufilduboamp_lab_eda_eforms](https://github.com/AuFilDuBoamp/aufilduboamp_lab_eda_eforms/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/aufilduboamp_lab_eda_eforms/blob/main/GUIDE_IA_EXPLORER_JSON_EFORMS.md) |
-| Avis / JSON territoriaux | [aufilduboamp_lab_radar_34_github](https://github.com/AuFilDuBoamp/aufilduboamp_lab_radar_34_github/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/aufilduboamp_lab_radar_34_github/blob/main/README_IA_ANALYSE_MARCHES_RADAR34.md) |
-| Recherche nationale / annonces anciennes | [aufilduboamp_lab_bsa_siret_national](https://github.com/AuFilDuBoamp/aufilduboamp_lab_bsa_siret_national/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/aufilduboamp_lab_bsa_siret_national/blob/main/RECHERCHE/GUIDE_MOTEUR_RECHERCHE.md) |
-| Acheteurs 34 / SPIP 148 | [aufilduboamp_lab_radar_34_spip_148](https://github.com/AuFilDuBoamp/aufilduboamp_lab_radar_34_spip_148/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/aufilduboamp_lab_radar_34_spip_148/blob/main/REPRISE_IA_SPIP_148_ACHETEURS_34.md) |
-| Pièces DCE | [aufilduboamp_lab_fonds_documentaire_34_agglo_sete](https://github.com/AuFilDuBoamp/aufilduboamp_lab_fonds_documentaire_34_agglo_sete/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/aufilduboamp_lab_fonds_documentaire_34_agglo_sete/blob/main/GUIDE_IA_ANALYSER_DCE.md) |
-| Références et méthodes générales | [aufilduboamp_sibsard_reperes](https://github.com/AuFilDuBoamp/aufilduboamp_sibsard_reperes/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/aufilduboamp_sibsard_reperes/blob/main/GUIDE_IA_SOURCES_REPERES.md) |
-| Marché / acheteur / enquête Thau | [Thau_AuFilDuBoamp_144_preparations_lab](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/README_IA.md) |
-| Publication publique Thau | [Thau-AuFilDuBoamp](https://github.com/AuFilDuBoamp/Thau-AuFilDuBoamp/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/Thau-AuFilDuBoamp/blob/main/README_IA.md) |
-| Illustrations | [aufilduboamp_lab_illustrations_95](https://github.com/AuFilDuBoamp/aufilduboamp_lab_illustrations_95/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/aufilduboamp_lab_illustrations_95/blob/main/PROCEDURE_ILLUSTRATIONS_SPIP.md) |
-| Usage local d'un fichier / dépendances | [AUFILDUBOAMP_SIBSARD_AUDIT](https://github.com/AuFilDuBoamp/AUFILDUBOAMP_SIBSARD_AUDIT/blob/main/00_LIRE_IA_SIBSARD.md) | [Guide](https://github.com/AuFilDuBoamp/AUFILDUBOAMP_SIBSARD_AUDIT/blob/main/README_IA.md) |
-
-Les huit composantes pilotées restent Archives → eForms → Radar → national → DCE → Thau 144 → Repères → SPIP 148. Le maître, l'AUDIT transversal et les sorties/publications ont d'autres rôles. Cartographie `aufilduboamp_carto_ia` : locale, sans dépôt propre ; Illustrations 95 : pilote autonome.
-
-**Travaux du 22 octobre :** les fiches, leurs correspondances SIREN, établissements et bandeaux sont décrits dans le [guide canonique du 144](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/DOCS/GUIDES/GUIDE_IA_FICHES_ACHETEURS_SPIP.md) ; l'exécution réelle du LAB est documentée [ici](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/CONTROLE_VALIDATION_THAU_144_2026-10-22.md). Les [enquêtes Thau](https://github.com/AuFilDuBoamp/Thau_AuFilDuBoamp_144_preparations_lab/blob/main/ENQUETES/README.md) se poursuivent dans le 144, sans dépôt de marché autonome et sans import redondant. Pour les annonces anciennes hors pivots, suivre le moteur national ; pour les méthodes générales, Repères.
-
-GitHub spécialisé pour la recherche ; fichiers locaux courants vérifiés pour la maintenance. Demander ces derniers avec leur chemin complet avant modification s'ils n'ont pas déjà été fournis. Exécution, commit, publication FTP et rendu HTTP restent distincts. Aucun accès extérieur, Drive ou FTP direct n'est autorisé par la seule présence d'un lien.
-**Éviter les boucles de reprise :** si les entrées et règles utiles de cette composante ont déjà été lues dans la session et n'ont pas changé, passer directement au guide puis à la preuve ciblée. Ne pas recommencer 00 → README → README IA à chaque renvoi. Une rubrique ancienne qualifiée de « courante » à sa date ne prime pas les contrats et manifestes effectivement courants.
-| Veille documentaire / navigateur Firefox | [aufilduboamp_lab_navigateur_firefox](https://github.com/AuFilDuBoamp/aufilduboamp_lab_navigateur_firefox/blob/dev/dematdoc-0.4.3/00_LIRE_IA_SIBSARD.md) | [État, tests et reprise](https://github.com/AuFilDuBoamp/aufilduboamp_lab_navigateur_firefox/blob/dev/dematdoc-0.4.3/docs/BILAN_TESTS_2026-11-01.md) ; [circuit PDF](https://github.com/AuFilDuBoamp/aufilduboamp_lab_navigateur_firefox/blob/dev/dematdoc-0.4.3/docs/CIRCUIT_DOCUMENTAIRE_PDF.md) |
-
-<!-- FIN_CARTE_COMMUNE_2026_10_22 -->
+**Parcours public :** [accueil des radiographies](00_ACCUEIL.ipynb) → fichier publié utile → sources citées. Ces publications sont des dérivés, pas une preuve métier autonome. Les références privées servent au parcours interne et exigent leurs propres droits ; demander les pièces autorisées si la vérification l’exige.
 
 **Vous êtes ici :** `AuFilDuBoamp/Thau-AuFilDuBoamp`. Productions destinées à la diffusion ; preuve dans les composantes amont.
 
@@ -66,7 +24,6 @@ Lire la source utile, conserver sa date, son commit et sa provenance. Un index r
 
 Repères conserve les connaissances générales. Chaque composante conserve ses données, contrats et preuves spécialisées. La carte se répète volontairement ; les vérités de fond ne se dupliquent pas. SPIP, nbviewer et les restitutions publiques ne remplacent jamais les sources amont. Ne pas exposer secrets, pipeline propriétaire BSA, règles sensibles ou corpus national dans un espace public.
 
-
 Huit composantes seulement sont pilotées : Archives → eForms → Radar → national → DCE → Thau 144 → Repères → SPIP 148. Le référentiel maître et l'audit transversal complètent les dépôts coordonnés. Illustrations 95 conserve son pilote autonome. Le dossier cartographique local reste local, sans dépôt ajouté par supposition. L'ancien Observatoire et le chantier 110 ne sont plus des destinations de travail.
 
 ## État et suites
@@ -79,3 +36,4 @@ Huit composantes seulement sont pilotées : Archives → eForms → Radar → na
 
 Les contrats et preuves utiles sont désignés dans le README IA.
 
+**Fondamentaux de lecture :** [entrée du dépôt](00_LIRE_IA_SIBSARD.md) · [navigation AFDB par besoin](https://github.com/AuFilDuBoamp/aufilduboamp-ia/blob/main/docs/AP_navigation_documentaire_sibsa.md). Un index oriente ; la source établit le fait. Ne rien inventer, conserver les limites ; un lien n’autorise ni accès extérieur ni modification. Ne pas relire un contexte connu et inchangé.
